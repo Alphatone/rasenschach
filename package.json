@@ -1,0 +1,11 @@
+{
+  "name": "kicker-interactive-fetcher",
+  "version": "1.0.0",
+  "description": "fetches data for the manager interactive game of kicker.de",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonas Koneczny",
+  "license": "ISC"
+}
