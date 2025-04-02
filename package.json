@@ -4,7 +4,8 @@
   "description": "fetches data for the manager interactive game of kicker.de",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch:matchdays": "ts-node src/matchday-fetcher.ts"
   },
   "author": "Jonas Koneczny",
   "license": "ISC",
@@ -15,7 +16,9 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
+    "@types/csv-parse": "^1.1.12",
     "@types/node": "^22.13.17",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   }
 }
