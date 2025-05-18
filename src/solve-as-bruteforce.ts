@@ -14,35 +14,30 @@ interface PlayerMeta {
 const PLAYER_DATA_PATH = "./data/players/players-se.json";
 const COMBINED_DIR = "./data/combined";
 const CURRENT_SQUAD_PATH = "./data/squad/winter-kader.json";
-const SECOND_HALF_START = 16;
 const MAX_TRANSFERS = 4;
 const MAX_BUDGET = 42000000;
+const FIRST_HALF_END = 16;
+const SECOND_HALF_START = 16;
 
 function loadPlayers(): Record<string, PlayerMeta> {
     const data: PlayerMeta[] = JSON.parse(fs.readFileSync(PLAYER_DATA_PATH, "utf-8"));
-    const map: Record<string, PlayerMeta> = {};
-    for (const p of data) {
-        map[p.ID] = p;
-    }
-    return map;
+    return Object.fromEntries(data.map(p => [p.ID, p]));
 }
 
-function loadMatchdayPoints(): Record<string, number> {
+function loadMatchdayPoints(start: number, end: number): Record<string, number> {
     const files = fs.readdirSync(COMBINED_DIR).filter(f => f.endsWith(".json"));
     const relevant = files.filter(f => {
         const matchday = parseInt(f.match(/(\d{2})\.json$/)?.[1] || "0", 10);
-        return matchday >= SECOND_HALF_START;
+        return matchday >= start && matchday < end;
     });
 
     const playerPoints: Record<string, number> = {};
-
     for (const file of relevant) {
         const data = JSON.parse(fs.readFileSync(path.join(COMBINED_DIR, file), "utf-8"));
         for (const player of data) {
             playerPoints[player.playerId] = (playerPoints[player.playerId] ?? 0) + (player.points ?? 0);
         }
     }
-
     return playerPoints;
 }
 
@@ -50,95 +45,93 @@ function loadCurrentSquad(): string[] {
     return JSON.parse(fs.readFileSync(CURRENT_SQUAD_PATH, "utf-8"));
 }
 
-function findBestTransfers() {
+function topN(ids: string[], points: Record<string, number>, n: number): string[] {
+    return [...ids]
+        .sort((a, b) => (points[b] ?? 0) - (points[a] ?? 0))
+        .slice(0, n);
+}
+
+function findBestTop11TransferCombo() {
     const players = loadPlayers();
-    const points = loadMatchdayPoints();
-    const currentSquad = loadCurrentSquad();
-    const squadSet = new Set(currentSquad);
+    const pointsBefore = loadMatchdayPoints(1, FIRST_HALF_END);
+    const pointsAfter = loadMatchdayPoints(SECOND_HALF_START, 35);
+    const originalSquad = loadCurrentSquad();
+    const squadSet = new Set(originalSquad);
 
-    const currentSquadCost = currentSquad.reduce((sum, id) => {
-        const p = players[id];
-        return sum + (p ? parseInt(p.Marktwert) : 0);
-    }, 0);
+    const originalCost = originalSquad.reduce((sum, id) => sum + (players[id] ? parseInt(players[id].Marktwert) : 0), 0);
+    const basePointsBefore = topN(originalSquad, pointsBefore, 11).reduce((sum, id) => sum + (pointsBefore[id] ?? 0), 0);
+    const basePointsAfter = topN(originalSquad, pointsAfter, 11).reduce((sum, id) => sum + (pointsAfter[id] ?? 0), 0);
+    const baseDiff = basePointsAfter - basePointsBefore;
 
-    type TransferOption = {
+    const options: {
         outId: string;
         inId: string;
-        position: Position;
+        pointGain: number;
         costDiff: number;
-        pointDiff: number;
-    };
+        position: Position;
+    }[] = [];
 
-    const options: TransferOption[] = [];
-
-    for (const outId of currentSquad) {
+    for (const outId of originalSquad) {
         const outPlayer = players[outId];
         if (!outPlayer) continue;
-        const outPoints = points[outId] ?? 0;
         const outCost = parseInt(outPlayer.Marktwert);
 
         for (const [inId, inPlayer] of Object.entries(players)) {
             if (squadSet.has(inId)) continue;
             if (inPlayer.Position !== outPlayer.Position) continue;
 
-            const inPoints = points[inId] ?? 0;
             const inCost = parseInt(inPlayer.Marktwert);
-            const newSquadCost = currentSquadCost - outCost + inCost;
+            if (originalCost - outCost + inCost > MAX_BUDGET) continue;
 
-            if (newSquadCost > MAX_BUDGET) continue;
+            const simulatedSquad = originalSquad.filter(id => id !== outId).concat(inId);
+            const diffBefore = topN(simulatedSquad, pointsBefore, 11).reduce((sum, id) => sum + (pointsBefore[id] ?? 0), 0);
+            const diffAfter = topN(simulatedSquad, pointsAfter, 11).reduce((sum, id) => sum + (pointsAfter[id] ?? 0), 0);
+            const gain = diffAfter - diffBefore;
 
-            const pointDiff = inPoints - outPoints;
-            if (pointDiff > 0) {
+            if (gain > baseDiff) {
                 options.push({
                     outId,
                     inId,
-                    position: inPlayer.Position,
+                    pointGain: gain - baseDiff,
                     costDiff: inCost - outCost,
-                    pointDiff
+                    position: inPlayer.Position
                 });
             }
         }
     }
 
-    // Sort by point gain descending
-    options.sort((a, b) => b.pointDiff - a.pointDiff);
+    // Sortiere und wähle beste Kombination ohne doppelte Spieler
+    const usedOut = new Set<string>();
+    const usedIn = new Set<string>();
+    const selected: typeof options = [];
+    let currentCost = originalCost;
 
-    const best: TransferOption[] = [];
-    const usedOutIds = new Set<string>();
-    const usedInIds = new Set<string>();
-    let squadCost = currentSquadCost;
+    for (const o of options.sort((a, b) => b.pointGain - a.pointGain)) {
+        if (usedOut.has(o.outId) || usedIn.has(o.inId)) continue;
+        const newCost = currentCost - parseInt(players[o.outId].Marktwert) + parseInt(players[o.inId].Marktwert);
+        if (newCost > MAX_BUDGET) continue;
 
-    for (const option of options) {
-        if (usedOutIds.has(option.outId)) continue;
-        if (usedInIds.has(option.inId)) continue;
+        selected.push(o);
+        usedOut.add(o.outId);
+        usedIn.add(o.inId);
+        currentCost = newCost;
 
-        const outCost = parseInt(players[option.outId].Marktwert);
-        const inCost = parseInt(players[option.inId].Marktwert);
-        const projectedCost = squadCost - outCost + inCost;
-
-        if (projectedCost > MAX_BUDGET) continue;
-
-        best.push(option);
-        usedOutIds.add(option.outId);
-        usedInIds.add(option.inId);
-        squadCost = projectedCost;
-
-        if (best.length >= MAX_TRANSFERS) break;
+        if (selected.length >= MAX_TRANSFERS) break;
     }
 
-    if (best.length === 0) {
+    if (selected.length === 0) {
         console.log("❌ Kein gültiger Transfer gefunden.");
         return;
     }
 
-    console.log(`✅ Beste ${best.length} Transfers mit Punktgewinn:\n`);
-    for (const t of best) {
-        const outPlayer = players[t.outId];
-        const inPlayer = players[t.inId];
-        console.log(`⬅️  ${outPlayer["Angezeigter Name"]} (${t.outId})`);
-        console.log(`➡️  ${inPlayer["Angezeigter Name"]} (${t.inId})`);
-        console.log(`🔄 Position: ${t.position}, 🪙 Budgetdiff: ${t.costDiff}, 📊 Punktdiff: +${t.pointDiff}\n`);
+    console.log(`✅ Beste ${selected.length} Transfers (Top-11 Differenzoptimierung):\n`);
+    for (const t of selected) {
+        const outP = players[t.outId];
+        const inP = players[t.inId];
+        console.log(`⬅️  ${outP["Angezeigter Name"]} (${t.outId})`);
+        console.log(`➡️  ${inP["Angezeigter Name"]} (${t.inId})`);
+        console.log(`🔄 Pos: ${t.position}, 📈 Punktdifferenz: +${t.pointGain}, 🪙 Budgetdiff: ${t.costDiff}\n`);
     }
 }
 
-findBestTransfers();
+findBestTop11TransferCombo();
