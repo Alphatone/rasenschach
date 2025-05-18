@@ -35,6 +35,9 @@ export interface PlayerEntry {
 async function fetchCSVPlayerData(): Promise<Record<string, Record<"ID" | "Vorname" | "Nachname" | "Angezeigter Name (kurz)" | "Angezeigter Name" | "Verein" | "Position" | "Marktwert" | "Punkte" | "Notendurchschnitt", string>>> {
     const response = await axios.get(PLAYER_CSV_URL);
 
+    fs.mkdirSync("./data/players", {recursive: true});
+    fs.writeFileSync("./data/players/players-se-k00012024.csv", JSON.stringify(response.data, null, 2), "utf-8");
+
     const records: any[] = await new Promise<any[]>((resolve, reject) => {
         parse(response.data, {
             delimiter: ";",
@@ -48,6 +51,22 @@ async function fetchCSVPlayerData(): Promise<Record<string, Record<"ID" | "Vorna
             }
         });
     });
+
+
+    // marmouch is not in the current list of players bcs he left the league
+    // to be able to map his player id we add it here
+    records.push({
+         "ID": "pl-k00103878",
+         "Vorname": "Omar",
+         "Nachname": "Marmoush",
+         "Angezeigter Name (kurz)": "Marmoush",
+         "Angezeigter Name": "Omar Marmoush",
+         "Verein": "Eintracht Frankfurt",
+         "Position": "FORWARD",
+         "Marktwert": "3500000",
+         "Punkte": "236",
+         "Notendurchschnitt": "2.38"
+     })
 
     const playerMap: Record<string, Record<PlayerEntryKey, string>> = {};
 
@@ -159,6 +178,11 @@ async function mergeAndSaveMatchday(playerMap: Record<string, Record<"ID" | "Vor
         const player = playerMap[playerScoreSheet.id]
         if(player === undefined){
             // this could be the case for players that left the league or have been unregistered or something like that. maybe the contract ran out etc
+            if(playerScoreSheet.points > 0) {
+                {
+                    console.info(`player with id: ${playerScoreSheet.id} and unknown name, scored ${playerScoreSheet} points.`)
+                }
+            }
             return {}
         }
         const res: PlayerEntry = {
