@@ -158,6 +158,7 @@ async function mergeAndSaveMatchday(playerMap: Record<string, Record<"ID" | "Vor
     const result: PlayerEntry[] | {} = matchdayScoreSheets.map((playerScoreSheet: MatchDayPlayerScore) => {
         const player = playerMap[playerScoreSheet.id]
         if(player === undefined){
+            // this could be the case for players that left the league or have been unregistered or something like that. maybe the contract ran out etc
             return {}
         }
         const res: PlayerEntry = {
