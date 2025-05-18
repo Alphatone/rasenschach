@@ -2,55 +2,76 @@ import * as fs from "fs";
 import * as path from "path";
 import { PlayerEntry } from './matchday-fetcher';
 
-const gradesToPoints = {
-    "100": 10,
-    "150": 8,
-    "200": 6,
-    "250": 4,
-    "300": 2,
-    "350": 0,
-    "400": -2,
-    "450": -4,
-    "500": -6,
-    "550": -8,
-    "600": -10
-}
+const PLAYER_META_PATH = "./data/players/players-se.json";
+const COMBINED_DIR = "./data/combined";
 
 function loadAllMatchdays(): PlayerEntry[][] {
-    const dir = "./data/combined";
-    const files = fs.readdirSync(dir).filter(f => f.endsWith(".json"));
+    const files = fs.readdirSync(COMBINED_DIR).filter(f => f.endsWith(".json"));
     return files.map(file => {
-        const raw = fs.readFileSync(path.join(dir, file), "utf-8");
+        const raw = fs.readFileSync(path.join(COMBINED_DIR, file), "utf-8");
         return JSON.parse(raw) as PlayerEntry[];
     });
 }
 
-function getTopPlayersFirstHalf(matchdays: PlayerEntry[][], topN = 100) {
-    return getTopPlayersOfMatchdays(matchdays, topN, 0, 17)
+function loadPlayerMeta(): Record<string, any> {
+    const raw = fs.readFileSync(PLAYER_META_PATH, "utf-8");
+    const list = JSON.parse(raw) as any[];
+    const map: Record<string, any> = {};
+    for (const p of list) {
+        map[p.ID] = p;
+    }
+    return map;
 }
 
-function getTopPlayersSecondHalf(matchdays: PlayerEntry[][], topN = 100) {
-    return getTopPlayersOfMatchdays(matchdays, topN, 18, 34)
-}
-
-function getTopPlayersOfMatchdays(matchdays: PlayerEntry[][], topN = 100, start: number, end: number) {
-    const playerTotals: Record<string, { name: string; points: number }> = {};
-
+function aggregatePoints(matchdays: PlayerEntry[][], start: number, end: number): Record<string, number> {
+    const totals: Record<string, number> = {};
     matchdays.slice(start, end).forEach(day =>
-        day.forEach((player: PlayerEntry) => {
-            if(!playerTotals[player.playerId]) {
-                playerTotals[player.playerId] = {name: player.name, points: 0};
-            }
-            playerTotals[player.playerId].points += player.points ?? 0;
+        day.forEach(player => {
+            totals[player.playerId] = (totals[player.playerId] ?? 0) + (player.points ?? 0);
         })
     );
+    return totals;
+}
 
-    return Object.entries(playerTotals)
-        .sort(([, a], [, b]) => b.points - a.points)
-        .slice(0, topN).reverse();
+function mergePerformance(firstHalf: Record<string, number>, secondHalf: Record<string, number>, meta: Record<string, any>) {
+    const ids = new Set([...Object.keys(firstHalf), ...Object.keys(secondHalf)]);
+    const result = [];
+
+    for (const id of ids) {
+        const metaEntry = meta[id];
+        if (!metaEntry) continue;
+        const cost = parseInt(metaEntry.Marktwert);
+        if (!cost || cost === 0) continue;
+
+        const pointsFirst = firstHalf[id] ?? 0;
+        const pointsSecond = secondHalf[id] ?? 0;
+
+        result.push({
+            id,
+            name: metaEntry["Angezeigter Name"],
+            club: metaEntry.Verein,
+            position: metaEntry.Position,
+            marketValue: cost,
+            pointsFirstHalf: pointsFirst,
+            pointsSecondHalf: pointsSecond,
+            pointsFirstHalfPerMio: +(pointsFirst / (cost / 1_000_000)).toFixed(2),
+            pointsSecondHalfPerMio: +(pointsSecond / (cost / 1_000_000)).toFixed(2),
+        });
+    }
+
+    return result
+        .filter(p => p.pointsFirstHalf > 0 || p.pointsSecondHalf > 0)
+        .sort((a, b) => b.pointsSecondHalf - a.pointsSecondHalf)
+        .slice(0, 100); // Top 20 nach Effizienz Rückrunde
 }
 
 const matchdays = loadAllMatchdays();
+const meta = loadPlayerMeta();
 
-console.log("Top Hinrunde Spieler:", getTopPlayersFirstHalf(matchdays));
-console.log("Top Rückrunde Spieler:", getTopPlayersSecondHalf(matchdays));
+const firstHalf = aggregatePoints(matchdays, 0, 17);
+const secondHalf = aggregatePoints(matchdays, 17, 34);
+
+const topEfficient = mergePerformance(firstHalf, secondHalf, meta);
+
+console.log("\n💸 Effizienteste Spieler (Punkte pro Mio Marktwert – Rückrunde):");
+console.table(topEfficient);
