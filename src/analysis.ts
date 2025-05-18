@@ -17,7 +17,7 @@ const gradesToPoints = {
 }
 
 function loadAllMatchdays(): PlayerEntry[][] {
-    const dir = "./data";
+    const dir = "./data/combined";
     const files = fs.readdirSync(dir).filter(f => f.endsWith(".json"));
     return files.map(file => {
         const raw = fs.readFileSync(path.join(dir, file), "utf-8");
@@ -45,13 +45,11 @@ function getTopPlayersOfMatchdays(matchdays: PlayerEntry[][], topN = 100, start:
         })
     );
 
-    console.log(playerTotals)
-
     return Object.entries(playerTotals)
         .sort(([, a], [, b]) => b.points - a.points)
         .slice(0, topN);
 }
 
 const matchdays = loadAllMatchdays();
-console.log(matchdays)
-//console.log("Top Hinrunde Spieler:", getTopPlayersFirstHalf(matchdays));
+
+console.log("Top Hinrunde Spieler:", getTopPlayersFirstHalf(matchdays));
