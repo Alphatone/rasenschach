@@ -9,7 +9,8 @@
     "fetch:matchdays": "ts-node src/matchday-fetcher.ts",
     "run:analysis": "ts-node src/analysis.ts",
     "run:brute-analysis": "ts-node src/solve-as-bruteforce.ts",
-    "run:sim-transfers": "ts-node src/simulateTransfers.ts"
+    "run:sim-transfers": "ts-node src/simulateTransfers.ts",
+    "run:find-best-transfers": "ts-node src/findBestTransfers.ts"
   },
   "author": "Jonas Koneczny",
   "license": "ISC",
