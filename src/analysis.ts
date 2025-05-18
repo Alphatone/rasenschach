@@ -47,9 +47,10 @@ function getTopPlayersOfMatchdays(matchdays: PlayerEntry[][], topN = 100, start:
 
     return Object.entries(playerTotals)
         .sort(([, a], [, b]) => b.points - a.points)
-        .slice(0, topN);
+        .slice(0, topN).reverse();
 }
 
 const matchdays = loadAllMatchdays();
 
 console.log("Top Hinrunde Spieler:", getTopPlayersFirstHalf(matchdays));
+console.log("Top Rückrunde Spieler:", getTopPlayersSecondHalf(matchdays));

@@ -12,6 +12,23 @@ const MAX_MATCHDAY = 34;
 const LOCAL_MATCHDAY_PATH = './data/matchdays'
 const LOCAL_PLAYERS_PATH = './data/players/players-se-k00012024.csv'
 
+export type PointsBreakDown = {
+    grade: number,
+    goals: number,
+    assists: number,
+    pointsCleanSheet: number,
+    pointsGrade: number,
+    pointsGoals: number,
+    pointsCards: number,
+    pointsAssists: number,
+    pointsStarter: number,
+    pointsMvp: number,
+    pointsJoker: number
+}
+
+export type MatchDayPlayerScore = { id: string, points: number, status: string, pointsBreakDown: PointsBreakDown }
+export type Match = { id: string, homeScore: number, guestScore: number, state: string, players: MatchDayPlayerScore[] }
+export type MatchDay = { id: string, phase: string, matches: Match[] }
 export type PlayerEntryKey = "ID" |
     "Vorname" |
     "Nachname" |
@@ -29,14 +46,15 @@ export interface PlayerEntry {
     points: number;
     kickerGrade: number;
     pointsBreakDown?: PointsBreakDown
-    club:string
+    club: string
+    cost: string
 }
 
 async function fetchCSVPlayerData(): Promise<Record<string, Record<"ID" | "Vorname" | "Nachname" | "Angezeigter Name (kurz)" | "Angezeigter Name" | "Verein" | "Position" | "Marktwert" | "Punkte" | "Notendurchschnitt", string>>> {
     const response = await axios.get(PLAYER_CSV_URL);
 
     fs.mkdirSync("./data/players", {recursive: true});
-    fs.writeFileSync("./data/players/players-se-k00012024.csv", JSON.stringify(response.data, null, 2), "utf-8");
+    fs.writeFileSync("./data/players/players-se-k00012024.csv", response.data, "utf-8");
 
     const records: any[] = await new Promise<any[]>((resolve, reject) => {
         parse(response.data, {
@@ -53,33 +71,24 @@ async function fetchCSVPlayerData(): Promise<Record<string, Record<"ID" | "Vorna
     });
 
 
-    // marmouch is not in the current list of players bcs he left the league
+    // marmoush is not in the current list of players bcs he left the league
     // to be able to map his player id we add it here
     records.push({
-         "ID": "pl-k00103878",
-         "Vorname": "Omar",
-         "Nachname": "Marmoush",
-         "Angezeigter Name (kurz)": "Marmoush",
-         "Angezeigter Name": "Omar Marmoush",
-         "Verein": "Eintracht Frankfurt",
-         "Position": "FORWARD",
-         "Marktwert": "3500000",
-         "Punkte": "236",
-         "Notendurchschnitt": "2.38"
-     })
+        "ID": "pl-k00103878",
+        "Vorname": "Omar",
+        "Nachname": "Marmoush",
+        "Angezeigter Name (kurz)": "Marmoush",
+        "Angezeigter Name": "Omar Marmoush",
+        "Verein": "Eintracht Frankfurt",
+        "Position": "FORWARD",
+        "Marktwert": "3500000",
+        "Punkte": "236",
+        "Notendurchschnitt": "2.38"
+    })
 
-    const playerMap: Record<string, Record<PlayerEntryKey, string>> = {};
-
-    for(const record of records) {
-        const id = record["ID"];
-        const name = record["Angezeigter Name"];
-        if(id && name) {
-            playerMap[id] = name;
-        }
-    }
     fs.mkdirSync("./data/players", {recursive: true});
     fs.writeFileSync("./data/players/players-se.json", JSON.stringify(records, null, 2), "utf-8");
-    return playerMap as Record<string, Record<PlayerEntryKey, string>>;
+    return records as unknown as Record<string, Record<"ID" | "Vorname" | "Nachname" | "Angezeigter Name (kurz)" | "Angezeigter Name" | "Verein" | "Position" | "Marktwert" | "Punkte" | "Notendurchschnitt", string>>;
 }
 
 async function fetchMatchdayData(id: string): Promise<any | null> {
@@ -129,23 +138,6 @@ async function getPlayersData() {
     }
 }
 
-export type PointsBreakDown = {
-    grade: number,
-    goals: number,
-    assists: number,
-    pointsCleanSheet: number,
-    pointsGrade: number,
-    pointsGoals: number,
-    pointsCards: number,
-    pointsAssists: number,
-    pointsStarter: number,
-    pointsMvp: number,
-    pointsJoker: number
-}
-
-export type MatchDayPlayerScore = { id: string, points: number, status: string, pointsBreakDown: PointsBreakDown }
-export type Match = { id: string, homeScore: number, guestScore: number, state: string, players: MatchDayPlayerScore[] }
-export type MatchDay = { id: string, phase: string, matches: Match[] }
 
 async function loadMatchday(matchdayId: string) {
     const matchDayFilename = 'original-' + matchdayId + '.json'
@@ -174,16 +166,16 @@ async function mergeAndSaveMatchday(playerMap: Record<string, Record<"ID" | "Vor
 
     const matchdayScoreSheets = matchdayData.matches.flatMap((match: Match) => match.players || []);
 
-    const result: PlayerEntry[] | {} = matchdayScoreSheets.map((playerScoreSheet: MatchDayPlayerScore) => {
+    const result: (PlayerEntry | null)[] = matchdayScoreSheets.map((playerScoreSheet: MatchDayPlayerScore) => {
         const player = playerMap[playerScoreSheet.id]
-        if(player === undefined){
+        if(player === undefined) {
             // this could be the case for players that left the league or have been unregistered or something like that. maybe the contract ran out etc
-            if(playerScoreSheet.points > 0) {
+/*            if(playerScoreSheet.points > 0) {
                 {
-                    console.info(`player with id: ${playerScoreSheet.id} and unknown name, scored ${playerScoreSheet} points.`)
+                    console.info(`player with id: ${playerScoreSheet.id} and unknown name, scored ${playerScoreSheet.points} points.`)
                 }
-            }
-            return {}
+            }*/
+            return null
         }
         const res: PlayerEntry = {
             playerId: playerScoreSheet.id,
@@ -191,13 +183,16 @@ async function mergeAndSaveMatchday(playerMap: Record<string, Record<"ID" | "Vor
             club: player['Verein'],
             points: playerScoreSheet.points,
             pointsBreakDown: playerScoreSheet.pointsBreakDown,
-            kickerGrade: playerScoreSheet.pointsBreakDown.grade
+            kickerGrade: playerScoreSheet.pointsBreakDown.grade,
+            cost: player['Marktwert']
         }
         return res;
-    }).filter(p => p.hasOwnProperty('name'));
+    }).filter(p => p!== null);
 
     const fileName = matchdayId + ".json";
-    const outputPath = path.join("./data/combined", fileName);
+    const outputDir = "./data/combined"
+    const outputPath = path.join(outputDir, fileName);
+
     fs.mkdirSync("./data/combined", {recursive: true});
     fs.writeFileSync(outputPath, JSON.stringify(result, null, 2), "utf-8");
     console.log("✅ Saved " + outputPath);
@@ -211,6 +206,25 @@ async function runAllMatchdays(): Promise<void> {
         await mergeAndSaveMatchday(playerMap, matchdayId, matchDayData);
         await new Promise((r) => setTimeout(r, 500));
     }
+}
+
+const clearJSONFromLastRun = (outputPath: string, outputDir:string) => {
+    if(fs.existsSync(outputPath)) {
+        let filesFromLastRun: string[]= []
+        fs.readdir(outputDir, {encoding: 'utf-8'}, (err: (NodeJS.ErrnoException | null), files: string[]) => {
+            if(err) {
+                throw err
+            } else {
+                filesFromLastRun = files
+            }
+        })
+        for(const file of filesFromLastRun) {
+            fs.unlink(path.join(outputPath, file), err => {
+                throw err
+            })
+        }
+    }
+
 }
 
 runAllMatchdays().catch(console.error);

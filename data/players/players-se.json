@@ -1,29 +1,5 @@
 [
   {
-    "ID": "pl-k00001494",
-    "Vorname": "Michael",
-    "Nachname": "Urban",
-    "Angezeigter Name (kurz)": "Urban",
-    "Angezeigter Name": "Michael Urban",
-    "Verein": "1. FC Heidenheim",
-    "Position": "DEFENDER",
-    "Marktwert": "999000000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
-  },
-  {
-    "ID": "pl-k00029880",
-    "Vorname": "Christian",
-    "Nachname": "Stuff",
-    "Angezeigter Name (kurz)": "Stuff",
-    "Angezeigter Name": "Christian Stuff",
-    "Verein": "1. FC Union Berlin",
-    "Position": "DEFENDER",
-    "Marktwert": "999000000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
-  },
-  {
     "ID": "pl-k00030669",
     "Vorname": "Manuel",
     "Nachname": "Neuer",
@@ -32,8 +8,8 @@
     "Verein": "Bayern München",
     "Position": "GOALKEEPER",
     "Marktwert": "3600000",
-    "Punkte": "144",
-    "Notendurchschnitt": "2.98"
+    "Punkte": "161",
+    "Notendurchschnitt": "2.9"
   },
   {
     "ID": "pl-k00034419",
@@ -104,8 +80,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "GOALKEEPER",
     "Marktwert": "3800000",
-    "Punkte": "148",
-    "Notendurchschnitt": "2.95"
+    "Punkte": "182",
+    "Notendurchschnitt": "2.94"
   },
   {
     "ID": "pl-k00039317",
@@ -116,20 +92,8 @@
     "Verein": "Bayern München",
     "Position": "MIDFIELDER",
     "Marktwert": "4200000",
-    "Punkte": "92",
-    "Notendurchschnitt": "3.21"
-  },
-  {
-    "ID": "pl-k00039354",
-    "Vorname": "Bastian",
-    "Nachname": "Heidenfelder",
-    "Angezeigter Name (kurz)": "Heidenfelder",
-    "Angezeigter Name": "Bastian Heidenfelder",
-    "Verein": "1. FC Heidenheim",
-    "Position": "FORWARD",
-    "Marktwert": "999000000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "112",
+    "Notendurchschnitt": "3.29"
   },
   {
     "ID": "pl-k00039657",
@@ -168,18 +132,6 @@
     "Notendurchschnitt": "0.0"
   },
   {
-    "ID": "pl-k00040949",
-    "Vorname": "Christian",
-    "Nachname": "Adrianowytsch",
-    "Angezeigter Name (kurz)": "Adrianowytsch",
-    "Angezeigter Name": "Christian Adrianowytsch",
-    "Verein": "1. FC Heidenheim",
-    "Position": "DEFENDER",
-    "Marktwert": "999000000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
-  },
-  {
     "ID": "pl-k00041690",
     "Vorname": "Manuel",
     "Nachname": "Gulde",
@@ -212,8 +164,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "GOALKEEPER",
     "Marktwert": "3200000",
-    "Punkte": "118",
-    "Notendurchschnitt": "3.19"
+    "Punkte": "146",
+    "Notendurchschnitt": "3.16"
   },
   {
     "ID": "pl-k00043592",
@@ -224,8 +176,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "MIDFIELDER",
     "Marktwert": "2500000",
-    "Punkte": "131",
-    "Notendurchschnitt": "3.15"
+    "Punkte": "133",
+    "Notendurchschnitt": "3.21"
   },
   {
     "ID": "pl-k00043593",
@@ -260,7 +212,7 @@
     "Verein": "SC Freiburg",
     "Position": "MIDFIELDER",
     "Marktwert": "2400000",
-    "Punkte": "40",
+    "Punkte": "46",
     "Notendurchschnitt": "3.75"
   },
   {
@@ -284,7 +236,7 @@
     "Verein": "Holstein Kiel",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "16",
+    "Punkte": "20",
     "Notendurchschnitt": "4.19"
   },
   {
@@ -296,7 +248,7 @@
     "Verein": "1. FC Union Berlin",
     "Position": "FORWARD",
     "Marktwert": "2000000",
-    "Punkte": "4",
+    "Punkte": "6",
     "Notendurchschnitt": "4.0"
   },
   {
@@ -308,20 +260,8 @@
     "Verein": "VfL Bochum",
     "Position": "GOALKEEPER",
     "Marktwert": "2400000",
-    "Punkte": "41",
-    "Notendurchschnitt": "3.0"
-  },
-  {
-    "ID": "pl-k00050077",
-    "Vorname": "Dieter",
-    "Nachname": "Jarosch",
-    "Angezeigter Name (kurz)": "Jarosch",
-    "Angezeigter Name": "Dieter Jarosch",
-    "Verein": "1. FC Heidenheim",
-    "Position": "FORWARD",
-    "Marktwert": "999000000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "78",
+    "Notendurchschnitt": "3.08"
   },
   {
     "ID": "pl-k00050237",
@@ -332,7 +272,7 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "DEFENDER",
     "Marktwert": "700000",
-    "Punkte": "4",
+    "Punkte": "6",
     "Notendurchschnitt": "0.0"
   },
   {
@@ -368,8 +308,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "DEFENDER",
     "Marktwert": "1200000",
-    "Punkte": "88",
-    "Notendurchschnitt": "3.29"
+    "Punkte": "106",
+    "Notendurchschnitt": "3.41"
   },
   {
     "ID": "pl-k00054652",
@@ -380,8 +320,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "MIDFIELDER",
     "Marktwert": "3800000",
-    "Punkte": "82",
-    "Notendurchschnitt": "3.73"
+    "Punkte": "128",
+    "Notendurchschnitt": "3.52"
   },
   {
     "ID": "pl-k00054657",
@@ -392,8 +332,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "DEFENDER",
     "Marktwert": "2500000",
-    "Punkte": "68",
-    "Notendurchschnitt": "3.47"
+    "Punkte": "70",
+    "Notendurchschnitt": "3.58"
   },
   {
     "ID": "pl-k00054894",
@@ -428,7 +368,7 @@
     "Verein": "1. FC Union Berlin",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "86",
+    "Punkte": "106",
     "Notendurchschnitt": "3.67"
   },
   {
@@ -440,8 +380,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "DEFENDER",
     "Marktwert": "1300000",
-    "Punkte": "40",
-    "Notendurchschnitt": "3.83"
+    "Punkte": "56",
+    "Notendurchschnitt": "3.82"
   },
   {
     "ID": "pl-k00057247",
@@ -452,8 +392,8 @@
     "Verein": "Werder Bremen",
     "Position": "FORWARD",
     "Marktwert": "3800000",
-    "Punkte": "111",
-    "Notendurchschnitt": "3.71"
+    "Punkte": "129",
+    "Notendurchschnitt": "3.73"
   },
   {
     "ID": "pl-k00057343",
@@ -464,8 +404,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "MIDFIELDER",
     "Marktwert": "6000000",
-    "Punkte": "200",
-    "Notendurchschnitt": "2.91"
+    "Punkte": "214",
+    "Notendurchschnitt": "3.09"
   },
   {
     "ID": "pl-k00057797",
@@ -488,7 +428,7 @@
     "Verein": "RB Leipzig",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "86",
+    "Punkte": "92",
     "Notendurchschnitt": "3.45"
   },
   {
@@ -500,8 +440,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "GOALKEEPER",
     "Marktwert": "3600000",
-    "Punkte": "134",
-    "Notendurchschnitt": "3.19"
+    "Punkte": "158",
+    "Notendurchschnitt": "3.2"
   },
   {
     "ID": "pl-k00058003",
@@ -512,8 +452,8 @@
     "Verein": "Werder Bremen",
     "Position": "DEFENDER",
     "Marktwert": "3000000",
-    "Punkte": "140",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "185",
+    "Notendurchschnitt": "3.4"
   },
   {
     "ID": "pl-k00058007",
@@ -524,8 +464,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "MIDFIELDER",
     "Marktwert": "2500000",
-    "Punkte": "94",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "116",
+    "Notendurchschnitt": "3.48"
   },
   {
     "ID": "pl-k00058073",
@@ -548,8 +488,8 @@
     "Verein": "RB Leipzig",
     "Position": "GOALKEEPER",
     "Marktwert": "3600000",
-    "Punkte": "213",
-    "Notendurchschnitt": "2.72"
+    "Punkte": "252",
+    "Notendurchschnitt": "2.67"
   },
   {
     "ID": "pl-k00058696",
@@ -584,8 +524,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "50",
-    "Notendurchschnitt": "3.8"
+    "Punkte": "82",
+    "Notendurchschnitt": "3.67"
   },
   {
     "ID": "pl-k00058963",
@@ -596,8 +536,8 @@
     "Verein": "Holstein Kiel",
     "Position": "GOALKEEPER",
     "Marktwert": "800000",
-    "Punkte": "12",
-    "Notendurchschnitt": "3.0"
+    "Punkte": "44",
+    "Notendurchschnitt": "3.13"
   },
   {
     "ID": "pl-k00059041",
@@ -608,8 +548,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "FORWARD",
     "Marktwert": "5000000",
-    "Punkte": "130",
-    "Notendurchschnitt": "3.62"
+    "Punkte": "182",
+    "Notendurchschnitt": "3.52"
   },
   {
     "ID": "pl-k00059149",
@@ -632,20 +572,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "FORWARD",
     "Marktwert": "1800000",
-    "Punkte": "31",
+    "Punkte": "33",
     "Notendurchschnitt": "5.0"
-  },
-  {
-    "ID": "pl-k00059919",
-    "Vorname": "Marius",
-    "Nachname": "Nuding",
-    "Angezeigter Name (kurz)": "Nuding",
-    "Angezeigter Name": "Marius Nuding",
-    "Verein": "1. FC Heidenheim",
-    "Position": "MIDFIELDER",
-    "Marktwert": "999000000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
   },
   {
     "ID": "pl-k00060322",
@@ -668,8 +596,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "DEFENDER",
     "Marktwert": "1600000",
-    "Punkte": "69",
-    "Notendurchschnitt": "3.37"
+    "Punkte": "79",
+    "Notendurchschnitt": "3.32"
   },
   {
     "ID": "pl-k00060535",
@@ -680,7 +608,7 @@
     "Verein": "Werder Bremen",
     "Position": "MIDFIELDER",
     "Marktwert": "1700000",
-    "Punkte": "61",
+    "Punkte": "75",
     "Notendurchschnitt": "3.69"
   },
   {
@@ -704,8 +632,8 @@
     "Verein": "SC Freiburg",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "105",
-    "Notendurchschnitt": "3.61"
+    "Punkte": "127",
+    "Notendurchschnitt": "3.57"
   },
   {
     "ID": "pl-k00063799",
@@ -716,8 +644,8 @@
     "Verein": "SC Freiburg",
     "Position": "FORWARD",
     "Marktwert": "3000000",
-    "Punkte": "58",
-    "Notendurchschnitt": "3.33"
+    "Punkte": "62",
+    "Notendurchschnitt": "3.43"
   },
   {
     "ID": "pl-k00064040",
@@ -728,8 +656,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "2600000",
-    "Punkte": "126",
-    "Notendurchschnitt": "3.35"
+    "Punkte": "134",
+    "Notendurchschnitt": "3.44"
   },
   {
     "ID": "pl-k00064496",
@@ -752,8 +680,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "GOALKEEPER",
     "Marktwert": "3400000",
-    "Punkte": "140",
-    "Notendurchschnitt": "3.31"
+    "Punkte": "183",
+    "Notendurchschnitt": "3.2"
   },
   {
     "ID": "pl-k00065090",
@@ -764,8 +692,8 @@
     "Verein": "Werder Bremen",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "60",
-    "Notendurchschnitt": "3.86"
+    "Punkte": "64",
+    "Notendurchschnitt": "3.83"
   },
   {
     "ID": "pl-k00065134",
@@ -788,8 +716,8 @@
     "Verein": "Holstein Kiel",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "71",
-    "Notendurchschnitt": "3.68"
+    "Punkte": "118",
+    "Notendurchschnitt": "3.42"
   },
   {
     "ID": "pl-k00065896",
@@ -800,8 +728,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "GOALKEEPER",
     "Marktwert": "2800000",
-    "Punkte": "214",
-    "Notendurchschnitt": "2.74"
+    "Punkte": "241",
+    "Notendurchschnitt": "2.77"
   },
   {
     "ID": "pl-k00066084",
@@ -812,8 +740,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "DEFENDER",
     "Marktwert": "2200000",
-    "Punkte": "30",
-    "Notendurchschnitt": "4.06"
+    "Punkte": "62",
+    "Notendurchschnitt": "3.85"
   },
   {
     "ID": "pl-k00066111",
@@ -836,8 +764,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "DEFENDER",
     "Marktwert": "1400000",
-    "Punkte": "41",
-    "Notendurchschnitt": "3.75"
+    "Punkte": "49",
+    "Notendurchschnitt": "3.71"
   },
   {
     "ID": "pl-k00066531",
@@ -848,8 +776,8 @@
     "Verein": "VfL Bochum",
     "Position": "FORWARD",
     "Marktwert": "1800000",
-    "Punkte": "75",
-    "Notendurchschnitt": "3.92"
+    "Punkte": "86",
+    "Notendurchschnitt": "3.96"
   },
   {
     "ID": "pl-k00066745",
@@ -860,8 +788,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "DEFENDER",
     "Marktwert": "3000000",
-    "Punkte": "30",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "60",
+    "Notendurchschnitt": "3.29"
   },
   {
     "ID": "pl-k00066753",
@@ -872,8 +800,8 @@
     "Verein": "Bayern München",
     "Position": "MIDFIELDER",
     "Marktwert": "4000000",
-    "Punkte": "96",
-    "Notendurchschnitt": "3.25"
+    "Punkte": "141",
+    "Notendurchschnitt": "3.06"
   },
   {
     "ID": "pl-k00066754",
@@ -884,8 +812,8 @@
     "Verein": "Bayern München",
     "Position": "MIDFIELDER",
     "Marktwert": "4200000",
-    "Punkte": "101",
-    "Notendurchschnitt": "3.23"
+    "Punkte": "111",
+    "Notendurchschnitt": "3.31"
   },
   {
     "ID": "pl-k00067055",
@@ -920,8 +848,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "MIDFIELDER",
     "Marktwert": "3500000",
-    "Punkte": "96",
-    "Notendurchschnitt": "3.44"
+    "Punkte": "106",
+    "Notendurchschnitt": "3.57"
   },
   {
     "ID": "pl-k00067724",
@@ -932,8 +860,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "54",
-    "Notendurchschnitt": "3.88"
+    "Punkte": "80",
+    "Notendurchschnitt": "3.75"
   },
   {
     "ID": "pl-k00068029",
@@ -944,8 +872,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "MIDFIELDER",
     "Marktwert": "4000000",
-    "Punkte": "18",
-    "Notendurchschnitt": "3.75"
+    "Punkte": "38",
+    "Notendurchschnitt": "3.42"
   },
   {
     "ID": "pl-k00068100",
@@ -968,8 +896,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "MIDFIELDER",
     "Marktwert": "5000000",
-    "Punkte": "87",
-    "Notendurchschnitt": "3.82"
+    "Punkte": "136",
+    "Notendurchschnitt": "3.69"
   },
   {
     "ID": "pl-k00068667",
@@ -1004,8 +932,8 @@
     "Verein": "RB Leipzig",
     "Position": "DEFENDER",
     "Marktwert": "3700000",
-    "Punkte": "145",
-    "Notendurchschnitt": "3.19"
+    "Punkte": "151",
+    "Notendurchschnitt": "3.18"
   },
   {
     "ID": "pl-k00069475",
@@ -1029,7 +957,7 @@
     "Position": "DEFENDER",
     "Marktwert": "1200000",
     "Punkte": "21",
-    "Notendurchschnitt": "4.5"
+    "Notendurchschnitt": "4.75"
   },
   {
     "ID": "pl-k00070409",
@@ -1040,8 +968,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "FORWARD",
     "Marktwert": "2200000",
-    "Punkte": "16",
-    "Notendurchschnitt": "4.0"
+    "Punkte": "19",
+    "Notendurchschnitt": "4.2"
   },
   {
     "ID": "pl-k00070587",
@@ -1064,8 +992,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "DEFENDER",
     "Marktwert": "5500000",
-    "Punkte": "199",
-    "Notendurchschnitt": "2.77"
+    "Punkte": "240",
+    "Notendurchschnitt": "2.81"
   },
   {
     "ID": "pl-k00070605",
@@ -1076,8 +1004,8 @@
     "Verein": "Bayern München",
     "Position": "FORWARD",
     "Marktwert": "8500000",
-    "Punkte": "294",
-    "Notendurchschnitt": "2.64"
+    "Punkte": "334",
+    "Notendurchschnitt": "2.72"
   },
   {
     "ID": "pl-k00070709",
@@ -1124,8 +1052,8 @@
     "Verein": "SC Freiburg",
     "Position": "DEFENDER",
     "Marktwert": "3500000",
-    "Punkte": "157",
-    "Notendurchschnitt": "2.98"
+    "Punkte": "179",
+    "Notendurchschnitt": "3.05"
   },
   {
     "ID": "pl-k00070997",
@@ -1136,8 +1064,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "MIDFIELDER",
     "Marktwert": "3800000",
-    "Punkte": "95",
-    "Notendurchschnitt": "3.34"
+    "Punkte": "111",
+    "Notendurchschnitt": "3.32"
   },
   {
     "ID": "pl-k00071021",
@@ -1160,8 +1088,8 @@
     "Verein": "Bayern München",
     "Position": "DEFENDER",
     "Marktwert": "5000000",
-    "Punkte": "204",
-    "Notendurchschnitt": "2.68"
+    "Punkte": "249",
+    "Notendurchschnitt": "2.73"
   },
   {
     "ID": "pl-k00071151",
@@ -1172,8 +1100,8 @@
     "Verein": "Werder Bremen",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "72",
-    "Notendurchschnitt": "3.56"
+    "Punkte": "112",
+    "Notendurchschnitt": "3.38"
   },
   {
     "ID": "pl-k00071294",
@@ -1184,8 +1112,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "120",
-    "Notendurchschnitt": "3.27"
+    "Punkte": "139",
+    "Notendurchschnitt": "3.31"
   },
   {
     "ID": "pl-k00071295",
@@ -1208,8 +1136,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "MIDFIELDER",
     "Marktwert": "1700000",
-    "Punkte": "44",
-    "Notendurchschnitt": "3.93"
+    "Punkte": "64",
+    "Notendurchschnitt": "3.86"
   },
   {
     "ID": "pl-k00071930",
@@ -1220,8 +1148,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "54",
-    "Notendurchschnitt": "3.77"
+    "Punkte": "62",
+    "Notendurchschnitt": "3.79"
   },
   {
     "ID": "pl-k00071980",
@@ -1268,8 +1196,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "80",
-    "Notendurchschnitt": "3.7"
+    "Punkte": "98",
+    "Notendurchschnitt": "3.71"
   },
   {
     "ID": "pl-k00072684",
@@ -1292,7 +1220,7 @@
     "Verein": "SC Freiburg",
     "Position": "DEFENDER",
     "Marktwert": "2600000",
-    "Punkte": "127",
+    "Punkte": "133",
     "Notendurchschnitt": "3.48"
   },
   {
@@ -1304,8 +1232,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "GOALKEEPER",
     "Marktwert": "3400000",
-    "Punkte": "172",
-    "Notendurchschnitt": "3.06"
+    "Punkte": "214",
+    "Notendurchschnitt": "3.05"
   },
   {
     "ID": "pl-k00072759",
@@ -1316,8 +1244,8 @@
     "Verein": "SC Freiburg",
     "Position": "MIDFIELDER",
     "Marktwert": "4000000",
-    "Punkte": "167",
-    "Notendurchschnitt": "3.42"
+    "Punkte": "210",
+    "Notendurchschnitt": "3.36"
   },
   {
     "ID": "pl-k00073015",
@@ -1328,7 +1256,7 @@
     "Verein": "VfL Bochum",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "44",
+    "Punkte": "46",
     "Notendurchschnitt": "3.83"
   },
   {
@@ -1340,8 +1268,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "MIDFIELDER",
     "Marktwert": "4000000",
-    "Punkte": "50",
-    "Notendurchschnitt": "3.88"
+    "Punkte": "58",
+    "Notendurchschnitt": "3.81"
   },
   {
     "ID": "pl-k00073704",
@@ -1352,8 +1280,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "DEFENDER",
     "Marktwert": "2800000",
-    "Punkte": "144",
-    "Notendurchschnitt": "3.33"
+    "Punkte": "170",
+    "Notendurchschnitt": "3.35"
   },
   {
     "ID": "pl-k00074868",
@@ -1388,8 +1316,8 @@
     "Verein": "FC Augsburg",
     "Position": "DEFENDER",
     "Marktwert": "2200000",
-    "Punkte": "139",
-    "Notendurchschnitt": "3.33"
+    "Punkte": "161",
+    "Notendurchschnitt": "3.39"
   },
   {
     "ID": "pl-k00075072",
@@ -1400,8 +1328,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "FORWARD",
     "Marktwert": "2500000",
-    "Punkte": "142",
-    "Notendurchschnitt": "3.4"
+    "Punkte": "143",
+    "Notendurchschnitt": "3.63"
   },
   {
     "ID": "pl-k00075198",
@@ -1412,7 +1340,7 @@
     "Verein": "Holstein Kiel",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "80",
+    "Punkte": "88",
     "Notendurchschnitt": "3.77"
   },
   {
@@ -1424,8 +1352,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "FORWARD",
     "Marktwert": "2500000",
-    "Punkte": "34",
-    "Notendurchschnitt": "3.8"
+    "Punkte": "49",
+    "Notendurchschnitt": "3.85"
   },
   {
     "ID": "pl-k00075319",
@@ -1460,8 +1388,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "42",
-    "Notendurchschnitt": "4.13"
+    "Punkte": "52",
+    "Notendurchschnitt": "3.83"
   },
   {
     "ID": "pl-k00075608",
@@ -1472,8 +1400,8 @@
     "Verein": "FC Augsburg",
     "Position": "GOALKEEPER",
     "Marktwert": "1200000",
-    "Punkte": "98",
-    "Notendurchschnitt": "2.79"
+    "Punkte": "147",
+    "Notendurchschnitt": "2.75"
   },
   {
     "ID": "pl-k00075624",
@@ -1484,8 +1412,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1500000",
-    "Punkte": "68",
-    "Notendurchschnitt": "3.46"
+    "Punkte": "91",
+    "Notendurchschnitt": "3.47"
   },
   {
     "ID": "pl-k00075625",
@@ -1496,8 +1424,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "20",
-    "Notendurchschnitt": "4.5"
+    "Punkte": "28",
+    "Notendurchschnitt": "4.29"
   },
   {
     "ID": "pl-k00075628",
@@ -1508,8 +1436,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "34",
-    "Notendurchschnitt": "3.86"
+    "Punkte": "46",
+    "Notendurchschnitt": "3.78"
   },
   {
     "ID": "pl-k00075632",
@@ -1520,7 +1448,7 @@
     "Verein": "FC St. Pauli",
     "Position": "FORWARD",
     "Marktwert": "1700000",
-    "Punkte": "80",
+    "Punkte": "84",
     "Notendurchschnitt": "3.86"
   },
   {
@@ -1532,8 +1460,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "GOALKEEPER",
     "Marktwert": "3200000",
-    "Punkte": "159",
-    "Notendurchschnitt": "2.93"
+    "Punkte": "206",
+    "Notendurchschnitt": "2.91"
   },
   {
     "ID": "pl-k00076053",
@@ -1544,8 +1472,8 @@
     "Verein": "Werder Bremen",
     "Position": "GOALKEEPER",
     "Marktwert": "3200000",
-    "Punkte": "136",
-    "Notendurchschnitt": "3.35"
+    "Punkte": "182",
+    "Notendurchschnitt": "3.27"
   },
   {
     "ID": "pl-k00076421",
@@ -1556,8 +1484,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "124",
-    "Notendurchschnitt": "3.4"
+    "Punkte": "143",
+    "Notendurchschnitt": "3.47"
   },
   {
     "ID": "pl-k00076446",
@@ -1568,7 +1496,7 @@
     "Verein": "RB Leipzig",
     "Position": "FORWARD",
     "Marktwert": "2200000",
-    "Punkte": "32",
+    "Punkte": "48",
     "Notendurchschnitt": "4.0"
   },
   {
@@ -1580,8 +1508,8 @@
     "Verein": "RB Leipzig",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "72",
-    "Notendurchschnitt": "3.53"
+    "Punkte": "91",
+    "Notendurchschnitt": "3.62"
   },
   {
     "ID": "pl-k00076799",
@@ -1592,8 +1520,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "92",
-    "Notendurchschnitt": "3.65"
+    "Punkte": "90",
+    "Notendurchschnitt": "3.83"
   },
   {
     "ID": "pl-k00076954",
@@ -1604,8 +1532,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "FORWARD",
     "Marktwert": "3800000",
-    "Punkte": "191",
-    "Notendurchschnitt": "3.22"
+    "Punkte": "202",
+    "Notendurchschnitt": "3.45"
   },
   {
     "ID": "pl-k00077009",
@@ -1652,7 +1580,7 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "DEFENDER",
     "Marktwert": "1600000",
-    "Punkte": "70",
+    "Punkte": "76",
     "Notendurchschnitt": "3.23"
   },
   {
@@ -1676,8 +1604,8 @@
     "Verein": "FC St. Pauli",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "116",
-    "Notendurchschnitt": "3.38"
+    "Punkte": "136",
+    "Notendurchschnitt": "3.44"
   },
   {
     "ID": "pl-k00078467",
@@ -1688,8 +1616,8 @@
     "Verein": "VfL Bochum",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "62",
-    "Notendurchschnitt": "3.92"
+    "Punkte": "68",
+    "Notendurchschnitt": "3.98"
   },
   {
     "ID": "pl-k00078474",
@@ -1736,8 +1664,8 @@
     "Verein": "FC St. Pauli",
     "Position": "GOALKEEPER",
     "Marktwert": "2200000",
-    "Punkte": "210",
-    "Notendurchschnitt": "2.81"
+    "Punkte": "251",
+    "Notendurchschnitt": "2.8"
   },
   {
     "ID": "pl-k00079162",
@@ -1796,8 +1724,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "MIDFIELDER",
     "Marktwert": "3000000",
-    "Punkte": "103",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "143",
+    "Notendurchschnitt": "3.43"
   },
   {
     "ID": "pl-k00079188",
@@ -1808,8 +1736,8 @@
     "Verein": "Holstein Kiel",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "44",
-    "Notendurchschnitt": "4.04"
+    "Punkte": "70",
+    "Notendurchschnitt": "3.91"
   },
   {
     "ID": "pl-k00079199",
@@ -1832,8 +1760,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "6",
-    "Notendurchschnitt": "4.5"
+    "Punkte": "20",
+    "Notendurchschnitt": "4.0"
   },
   {
     "ID": "pl-k00079484",
@@ -1868,8 +1796,8 @@
     "Verein": "SC Freiburg",
     "Position": "MIDFIELDER",
     "Marktwert": "2500000",
-    "Punkte": "78",
-    "Notendurchschnitt": "3.75"
+    "Punkte": "117",
+    "Notendurchschnitt": "3.67"
   },
   {
     "ID": "pl-k00079543",
@@ -1880,8 +1808,8 @@
     "Verein": "Bayern München",
     "Position": "MIDFIELDER",
     "Marktwert": "6500000",
-    "Punkte": "127",
-    "Notendurchschnitt": "3.38"
+    "Punkte": "183",
+    "Notendurchschnitt": "3.23"
   },
   {
     "ID": "pl-k00079564",
@@ -1916,7 +1844,7 @@
     "Verein": "FC Augsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "67",
+    "Punkte": "77",
     "Notendurchschnitt": "3.96"
   },
   {
@@ -1940,7 +1868,7 @@
     "Verein": "1. FC Heidenheim",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "66",
+    "Punkte": "72",
     "Notendurchschnitt": "3.81"
   },
   {
@@ -1976,8 +1904,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "DEFENDER",
     "Marktwert": "3500000",
-    "Punkte": "105",
-    "Notendurchschnitt": "3.54"
+    "Punkte": "137",
+    "Notendurchschnitt": "3.45"
   },
   {
     "ID": "pl-k00079914",
@@ -1988,7 +1916,7 @@
     "Verein": "Holstein Kiel",
     "Position": "MIDFIELDER",
     "Marktwert": "1400000",
-    "Punkte": "10",
+    "Punkte": "14",
     "Notendurchschnitt": "4.83"
   },
   {
@@ -2012,8 +1940,8 @@
     "Verein": "SC Freiburg",
     "Position": "FORWARD",
     "Marktwert": "2800000",
-    "Punkte": "94",
-    "Notendurchschnitt": "3.61"
+    "Punkte": "136",
+    "Notendurchschnitt": "3.48"
   },
   {
     "ID": "pl-k00080029",
@@ -2036,8 +1964,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "MIDFIELDER",
     "Marktwert": "3500000",
-    "Punkte": "177",
-    "Notendurchschnitt": "3.06"
+    "Punkte": "211",
+    "Notendurchschnitt": "3.05"
   },
   {
     "ID": "pl-k00080088",
@@ -2084,8 +2012,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "DEFENDER",
     "Marktwert": "4000000",
-    "Punkte": "73",
-    "Notendurchschnitt": "3.53"
+    "Punkte": "127",
+    "Notendurchschnitt": "3.3"
   },
   {
     "ID": "pl-k00080342",
@@ -2096,8 +2024,8 @@
     "Verein": "VfL Bochum",
     "Position": "DEFENDER",
     "Marktwert": "1400000",
-    "Punkte": "71",
-    "Notendurchschnitt": "3.9"
+    "Punkte": "77",
+    "Notendurchschnitt": "3.98"
   },
   {
     "ID": "pl-k00080351",
@@ -2108,8 +2036,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "MIDFIELDER",
     "Marktwert": "5000000",
-    "Punkte": "102",
-    "Notendurchschnitt": "3.52"
+    "Punkte": "144",
+    "Notendurchschnitt": "3.41"
   },
   {
     "ID": "pl-k00080364",
@@ -2120,8 +2048,8 @@
     "Verein": "Werder Bremen",
     "Position": "DEFENDER",
     "Marktwert": "1600000",
-    "Punkte": "40",
-    "Notendurchschnitt": "3.71"
+    "Punkte": "78",
+    "Notendurchschnitt": "3.44"
   },
   {
     "ID": "pl-k00080463",
@@ -2144,8 +2072,8 @@
     "Verein": "FC Augsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "66",
-    "Notendurchschnitt": "3.79"
+    "Punkte": "70",
+    "Notendurchschnitt": "3.83"
   },
   {
     "ID": "pl-k00080766",
@@ -2156,8 +2084,8 @@
     "Verein": "SC Freiburg",
     "Position": "GOALKEEPER",
     "Marktwert": "800000",
-    "Punkte": "16",
-    "Notendurchschnitt": "3.38"
+    "Punkte": "44",
+    "Notendurchschnitt": "3.28"
   },
   {
     "ID": "pl-k00080875",
@@ -2168,8 +2096,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1300000",
-    "Punkte": "78",
-    "Notendurchschnitt": "3.57"
+    "Punkte": "129",
+    "Notendurchschnitt": "3.36"
   },
   {
     "ID": "pl-k00081437",
@@ -2180,8 +2108,8 @@
     "Verein": "Bayern München",
     "Position": "MIDFIELDER",
     "Marktwert": "4200000",
-    "Punkte": "116",
-    "Notendurchschnitt": "3.12"
+    "Punkte": "136",
+    "Notendurchschnitt": "3.15"
   },
   {
     "ID": "pl-k00081465",
@@ -2192,8 +2120,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "DEFENDER",
     "Marktwert": "6500000",
-    "Punkte": "148",
-    "Notendurchschnitt": "3.24"
+    "Punkte": "170",
+    "Notendurchschnitt": "3.34"
   },
   {
     "ID": "pl-k00081654",
@@ -2216,8 +2144,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "35",
-    "Notendurchschnitt": "2.5"
+    "Punkte": "43",
+    "Notendurchschnitt": "3.5"
   },
   {
     "ID": "pl-k00081971",
@@ -2228,8 +2156,8 @@
     "Verein": "FC St. Pauli",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "121",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "125",
+    "Notendurchschnitt": "3.53"
   },
   {
     "ID": "pl-k00082076",
@@ -2252,8 +2180,8 @@
     "Verein": "FC Augsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "48",
-    "Notendurchschnitt": "3.85"
+    "Punkte": "42",
+    "Notendurchschnitt": "3.9"
   },
   {
     "ID": "pl-k00082119",
@@ -2300,8 +2228,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1300000",
-    "Punkte": "30",
-    "Notendurchschnitt": "4.04"
+    "Punkte": "36",
+    "Notendurchschnitt": "4.03"
   },
   {
     "ID": "pl-k00082727",
@@ -2312,8 +2240,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "MIDFIELDER",
     "Marktwert": "3500000",
-    "Punkte": "117",
-    "Notendurchschnitt": "3.61"
+    "Punkte": "133",
+    "Notendurchschnitt": "3.68"
   },
   {
     "ID": "pl-k00082732",
@@ -2324,8 +2252,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "96",
-    "Notendurchschnitt": "3.52"
+    "Punkte": "128",
+    "Notendurchschnitt": "3.48"
   },
   {
     "ID": "pl-k00082966",
@@ -2336,8 +2264,8 @@
     "Verein": "VfL Bochum",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "126",
-    "Notendurchschnitt": "3.38"
+    "Punkte": "140",
+    "Notendurchschnitt": "3.48"
   },
   {
     "ID": "pl-k00083673",
@@ -2349,7 +2277,7 @@
     "Position": "DEFENDER",
     "Marktwert": "1800000",
     "Punkte": "50",
-    "Notendurchschnitt": "3.79"
+    "Notendurchschnitt": "3.93"
   },
   {
     "ID": "pl-k00083706",
@@ -2372,8 +2300,8 @@
     "Verein": "VfL Bochum",
     "Position": "FORWARD",
     "Marktwert": "1000000",
-    "Punkte": "55",
-    "Notendurchschnitt": "3.57"
+    "Punkte": "58",
+    "Notendurchschnitt": "3.76"
   },
   {
     "ID": "pl-k00083988",
@@ -2384,8 +2312,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "FORWARD",
     "Marktwert": "2400000",
-    "Punkte": "82",
-    "Notendurchschnitt": "3.53"
+    "Punkte": "126",
+    "Notendurchschnitt": "3.48"
   },
   {
     "ID": "pl-k00084309",
@@ -2396,8 +2324,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "GOALKEEPER",
     "Marktwert": "2600000",
-    "Punkte": "20",
-    "Notendurchschnitt": "3.57"
+    "Punkte": "40",
+    "Notendurchschnitt": "3.45"
   },
   {
     "ID": "pl-k00084365",
@@ -2408,8 +2336,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "97",
-    "Notendurchschnitt": "3.38"
+    "Punkte": "111",
+    "Notendurchschnitt": "3.42"
   },
   {
     "ID": "pl-k00084523",
@@ -2420,8 +2348,8 @@
     "Verein": "Bayern München",
     "Position": "DEFENDER",
     "Marktwert": "3200000",
-    "Punkte": "64",
-    "Notendurchschnitt": "3.06"
+    "Punkte": "110",
+    "Notendurchschnitt": "3.03"
   },
   {
     "ID": "pl-k00084538",
@@ -2432,8 +2360,8 @@
     "Verein": "FC St. Pauli",
     "Position": "DEFENDER",
     "Marktwert": "1600000",
-    "Punkte": "81",
-    "Notendurchschnitt": "3.64"
+    "Punkte": "100",
+    "Notendurchschnitt": "3.7"
   },
   {
     "ID": "pl-k00084545",
@@ -2444,8 +2372,8 @@
     "Verein": "Holstein Kiel",
     "Position": "DEFENDER",
     "Marktwert": "1200000",
-    "Punkte": "34",
-    "Notendurchschnitt": "4.04"
+    "Punkte": "38",
+    "Notendurchschnitt": "4.03"
   },
   {
     "ID": "pl-k00084550",
@@ -2456,8 +2384,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "DEFENDER",
     "Marktwert": "3000000",
-    "Punkte": "123",
-    "Notendurchschnitt": "3.2"
+    "Punkte": "173",
+    "Notendurchschnitt": "3.13"
   },
   {
     "ID": "pl-k00084940",
@@ -2468,8 +2396,8 @@
     "Verein": "SC Freiburg",
     "Position": "DEFENDER",
     "Marktwert": "3000000",
-    "Punkte": "101",
-    "Notendurchschnitt": "3.52"
+    "Punkte": "135",
+    "Notendurchschnitt": "3.44"
   },
   {
     "ID": "pl-k00084943",
@@ -2480,8 +2408,8 @@
     "Verein": "Bayern München",
     "Position": "MIDFIELDER",
     "Marktwert": "3200000",
-    "Punkte": "72",
-    "Notendurchschnitt": "3.54"
+    "Punkte": "110",
+    "Notendurchschnitt": "3.45"
   },
   {
     "ID": "pl-k00085013",
@@ -2492,7 +2420,7 @@
     "Verein": "Bayern München",
     "Position": "MIDFIELDER",
     "Marktwert": "5000000",
-    "Punkte": "30",
+    "Punkte": "40",
     "Notendurchschnitt": "3.56"
   },
   {
@@ -2504,7 +2432,7 @@
     "Verein": "Werder Bremen",
     "Position": "FORWARD",
     "Marktwert": "2800000",
-    "Punkte": "36",
+    "Punkte": "38",
     "Notendurchschnitt": "3.81"
   },
   {
@@ -2528,8 +2456,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "DEFENDER",
     "Marktwert": "3200000",
-    "Punkte": "111",
-    "Notendurchschnitt": "3.3"
+    "Punkte": "159",
+    "Notendurchschnitt": "3.21"
   },
   {
     "ID": "pl-k00085575",
@@ -2552,8 +2480,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "FORWARD",
     "Marktwert": "4000000",
-    "Punkte": "182",
-    "Notendurchschnitt": "2.77"
+    "Punkte": "200",
+    "Notendurchschnitt": "3.05"
   },
   {
     "ID": "pl-k00086106",
@@ -2564,8 +2492,8 @@
     "Verein": "FC Augsburg",
     "Position": "FORWARD",
     "Marktwert": "1800000",
-    "Punkte": "78",
-    "Notendurchschnitt": "3.85"
+    "Punkte": "96",
+    "Notendurchschnitt": "3.8"
   },
   {
     "ID": "pl-k00086138",
@@ -2576,8 +2504,8 @@
     "Verein": "SC Freiburg",
     "Position": "MIDFIELDER",
     "Marktwert": "3400000",
-    "Punkte": "14",
-    "Notendurchschnitt": "4.0"
+    "Punkte": "24",
+    "Notendurchschnitt": "3.75"
   },
   {
     "ID": "pl-k00086166",
@@ -2588,8 +2516,8 @@
     "Verein": "Bayern München",
     "Position": "DEFENDER",
     "Marktwert": "3400000",
-    "Punkte": "97",
-    "Notendurchschnitt": "3.35"
+    "Punkte": "126",
+    "Notendurchschnitt": "3.28"
   },
   {
     "ID": "pl-k00087182",
@@ -2600,8 +2528,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "MIDFIELDER",
     "Marktwert": "2500000",
-    "Punkte": "14",
-    "Notendurchschnitt": "3.75"
+    "Punkte": "34",
+    "Notendurchschnitt": "3.63"
   },
   {
     "ID": "pl-k00087441",
@@ -2612,8 +2540,8 @@
     "Verein": "FC Augsburg",
     "Position": "FORWARD",
     "Marktwert": "1600000",
-    "Punkte": "22",
-    "Notendurchschnitt": "3.9"
+    "Punkte": "27",
+    "Notendurchschnitt": "3.83"
   },
   {
     "ID": "pl-k00087673",
@@ -2624,8 +2552,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "GOALKEEPER",
     "Marktwert": "4200000",
-    "Punkte": "146",
-    "Notendurchschnitt": "3.14"
+    "Punkte": "201",
+    "Notendurchschnitt": "3.0"
   },
   {
     "ID": "pl-k00087705",
@@ -2636,7 +2564,7 @@
     "Verein": "VfB Stuttgart",
     "Position": "FORWARD",
     "Marktwert": "4800000",
-    "Punkte": "118",
+    "Punkte": "153",
     "Notendurchschnitt": "3.61"
   },
   {
@@ -2648,8 +2576,8 @@
     "Verein": "RB Leipzig",
     "Position": "DEFENDER",
     "Marktwert": "3600000",
-    "Punkte": "113",
-    "Notendurchschnitt": "3.11"
+    "Punkte": "132",
+    "Notendurchschnitt": "3.1"
   },
   {
     "ID": "pl-k00087823",
@@ -2660,8 +2588,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "MIDFIELDER",
     "Marktwert": "2800000",
-    "Punkte": "169",
-    "Notendurchschnitt": "3.29"
+    "Punkte": "203",
+    "Notendurchschnitt": "3.31"
   },
   {
     "ID": "pl-k00087885",
@@ -2672,8 +2600,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "FORWARD",
     "Marktwert": "5500000",
-    "Punkte": "96",
-    "Notendurchschnitt": "3.53"
+    "Punkte": "137",
+    "Notendurchschnitt": "3.31"
   },
   {
     "ID": "pl-k00088061",
@@ -2684,8 +2612,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "FORWARD",
     "Marktwert": "2500000",
-    "Punkte": "36",
-    "Notendurchschnitt": "4.13"
+    "Punkte": "44",
+    "Notendurchschnitt": "4.14"
   },
   {
     "ID": "pl-k00088151",
@@ -2708,8 +2636,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "16",
-    "Notendurchschnitt": "4.0"
+    "Punkte": "28",
+    "Notendurchschnitt": "3.25"
   },
   {
     "ID": "pl-k00088184",
@@ -2732,8 +2660,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "FORWARD",
     "Marktwert": "3800000",
-    "Punkte": "199",
-    "Notendurchschnitt": "2.97"
+    "Punkte": "223",
+    "Notendurchschnitt": "3.1"
   },
   {
     "ID": "pl-k00088240",
@@ -2744,8 +2672,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "MIDFIELDER",
     "Marktwert": "3200000",
-    "Punkte": "95",
-    "Notendurchschnitt": "3.43"
+    "Punkte": "103",
+    "Notendurchschnitt": "3.56"
   },
   {
     "ID": "pl-k00088705",
@@ -2768,8 +2696,8 @@
     "Verein": "FC St. Pauli",
     "Position": "DEFENDER",
     "Marktwert": "1200000",
-    "Punkte": "45",
-    "Notendurchschnitt": "3.8"
+    "Punkte": "57",
+    "Notendurchschnitt": "3.71"
   },
   {
     "ID": "pl-k00088770",
@@ -2780,7 +2708,7 @@
     "Verein": "VfB Stuttgart",
     "Position": "FORWARD",
     "Marktwert": "1800000",
-    "Punkte": "77",
+    "Punkte": "87",
     "Notendurchschnitt": "3.36"
   },
   {
@@ -2816,7 +2744,7 @@
     "Verein": "1. FC Heidenheim",
     "Position": "FORWARD",
     "Marktwert": "1300000",
-    "Punkte": "56",
+    "Punkte": "65",
     "Notendurchschnitt": "3.79"
   },
   {
@@ -2840,8 +2768,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "MIDFIELDER",
     "Marktwert": "2400000",
-    "Punkte": "24",
-    "Notendurchschnitt": "3.88"
+    "Punkte": "30",
+    "Notendurchschnitt": "3.83"
   },
   {
     "ID": "pl-k00089442",
@@ -2852,8 +2780,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "FORWARD",
     "Marktwert": "7500000",
-    "Punkte": "146",
-    "Notendurchschnitt": "3.52"
+    "Punkte": "219",
+    "Notendurchschnitt": "3.31"
   },
   {
     "ID": "pl-k00089649",
@@ -2864,8 +2792,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "DEFENDER",
     "Marktwert": "2400000",
-    "Punkte": "108",
-    "Notendurchschnitt": "3.4"
+    "Punkte": "142",
+    "Notendurchschnitt": "3.32"
   },
   {
     "ID": "pl-k00089650",
@@ -2876,7 +2804,7 @@
     "Verein": "1. FC Union Berlin",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "4",
+    "Punkte": "8",
     "Notendurchschnitt": "4.5"
   },
   {
@@ -2888,7 +2816,7 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "MIDFIELDER",
     "Marktwert": "3200000",
-    "Punkte": "70",
+    "Punkte": "88",
     "Notendurchschnitt": "3.75"
   },
   {
@@ -2924,7 +2852,7 @@
     "Verein": "RB Leipzig",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "101",
+    "Punkte": "127",
     "Notendurchschnitt": "3.66"
   },
   {
@@ -2948,8 +2876,8 @@
     "Verein": "Werder Bremen",
     "Position": "DEFENDER",
     "Marktwert": "3500000",
-    "Punkte": "75",
-    "Notendurchschnitt": "3.36"
+    "Punkte": "130",
+    "Notendurchschnitt": "3.1"
   },
   {
     "ID": "pl-k00090133",
@@ -2960,8 +2888,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "72",
-    "Notendurchschnitt": "3.74"
+    "Punkte": "92",
+    "Notendurchschnitt": "3.72"
   },
   {
     "ID": "pl-k00090149",
@@ -2984,8 +2912,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "66",
-    "Notendurchschnitt": "3.75"
+    "Punkte": "70",
+    "Notendurchschnitt": "3.77"
   },
   {
     "ID": "pl-k00090996",
@@ -2996,8 +2924,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "MIDFIELDER",
     "Marktwert": "5000000",
-    "Punkte": "115",
-    "Notendurchschnitt": "2.59"
+    "Punkte": "127",
+    "Notendurchschnitt": "2.79"
   },
   {
     "ID": "pl-k00091011",
@@ -3008,7 +2936,7 @@
     "Verein": "Holstein Kiel",
     "Position": "FORWARD",
     "Marktwert": "1200000",
-    "Punkte": "33",
+    "Punkte": "37",
     "Notendurchschnitt": "3.92"
   },
   {
@@ -3020,8 +2948,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "MIDFIELDER",
     "Marktwert": "2800000",
-    "Punkte": "81",
-    "Notendurchschnitt": "3.35"
+    "Punkte": "115",
+    "Notendurchschnitt": "3.39"
   },
   {
     "ID": "pl-k00091372",
@@ -3032,8 +2960,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "42",
-    "Notendurchschnitt": "3.64"
+    "Punkte": "48",
+    "Notendurchschnitt": "3.68"
   },
   {
     "ID": "pl-k00091663",
@@ -3044,8 +2972,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "24",
-    "Notendurchschnitt": "4.29"
+    "Punkte": "32",
+    "Notendurchschnitt": "4.38"
   },
   {
     "ID": "pl-k00092237",
@@ -3056,8 +2984,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "DEFENDER",
     "Marktwert": "2600000",
-    "Punkte": "108",
-    "Notendurchschnitt": "3.57"
+    "Punkte": "130",
+    "Notendurchschnitt": "3.59"
   },
   {
     "ID": "pl-k00092331",
@@ -3068,8 +2996,8 @@
     "Verein": "VfL Bochum",
     "Position": "DEFENDER",
     "Marktwert": "2600000",
-    "Punkte": "66",
-    "Notendurchschnitt": "3.33"
+    "Punkte": "86",
+    "Notendurchschnitt": "3.38"
   },
   {
     "ID": "pl-k00093478",
@@ -3080,8 +3008,8 @@
     "Verein": "Werder Bremen",
     "Position": "FORWARD",
     "Marktwert": "800000",
-    "Punkte": "40",
-    "Notendurchschnitt": "4.1"
+    "Punkte": "78",
+    "Notendurchschnitt": "3.7"
   },
   {
     "ID": "pl-k00093610",
@@ -3104,8 +3032,8 @@
     "Verein": "FC Augsburg",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "64",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "82",
+    "Notendurchschnitt": "3.53"
   },
   {
     "ID": "pl-k00093843",
@@ -3128,8 +3056,8 @@
     "Verein": "VfL Bochum",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "48",
-    "Notendurchschnitt": "2.94"
+    "Punkte": "62",
+    "Notendurchschnitt": "3.36"
   },
   {
     "ID": "pl-k00093858",
@@ -3152,8 +3080,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "DEFENDER",
     "Marktwert": "1200000",
-    "Punkte": "24",
-    "Notendurchschnitt": "3.88"
+    "Punkte": "48",
+    "Notendurchschnitt": "3.65"
   },
   {
     "ID": "pl-k00094599",
@@ -3164,7 +3092,7 @@
     "Verein": "1. FC Heidenheim",
     "Position": "FORWARD",
     "Marktwert": "1000000",
-    "Punkte": "-2",
+    "Punkte": "2",
     "Notendurchschnitt": "4.7"
   },
   {
@@ -3176,8 +3104,8 @@
     "Verein": "Werder Bremen",
     "Position": "MIDFIELDER",
     "Marktwert": "3200000",
-    "Punkte": "141",
-    "Notendurchschnitt": "3.38"
+    "Punkte": "178",
+    "Notendurchschnitt": "3.37"
   },
   {
     "ID": "pl-k00095063",
@@ -3188,8 +3116,8 @@
     "Verein": "FC Augsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "72",
-    "Notendurchschnitt": "3.79"
+    "Punkte": "90",
+    "Notendurchschnitt": "3.78"
   },
   {
     "ID": "pl-k00095202",
@@ -3212,8 +3140,8 @@
     "Verein": "FC St. Pauli",
     "Position": "MIDFIELDER",
     "Marktwert": "1000000",
-    "Punkte": "60",
-    "Notendurchschnitt": "3.7"
+    "Punkte": "80",
+    "Notendurchschnitt": "3.66"
   },
   {
     "ID": "pl-k00095291",
@@ -3224,8 +3152,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "26",
-    "Notendurchschnitt": "2.75"
+    "Punkte": "40",
+    "Notendurchschnitt": "2.67"
   },
   {
     "ID": "pl-k00095487",
@@ -3260,7 +3188,7 @@
     "Verein": "Werder Bremen",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "52",
+    "Punkte": "60",
     "Notendurchschnitt": "4.0"
   },
   {
@@ -3284,8 +3212,8 @@
     "Verein": "Werder Bremen",
     "Position": "DEFENDER",
     "Marktwert": "1600000",
-    "Punkte": "68",
-    "Notendurchschnitt": "3.67"
+    "Punkte": "92",
+    "Notendurchschnitt": "3.62"
   },
   {
     "ID": "pl-k00096038",
@@ -3296,8 +3224,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "3000000",
-    "Punkte": "127",
-    "Notendurchschnitt": "3.2"
+    "Punkte": "155",
+    "Notendurchschnitt": "3.24"
   },
   {
     "ID": "pl-k00096140",
@@ -3320,7 +3248,7 @@
     "Verein": "FC St. Pauli",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "107",
+    "Punkte": "136",
     "Notendurchschnitt": "3.48"
   },
   {
@@ -3332,8 +3260,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "140",
-    "Notendurchschnitt": "3.19"
+    "Punkte": "162",
+    "Notendurchschnitt": "3.29"
   },
   {
     "ID": "pl-k00096744",
@@ -3344,8 +3272,8 @@
     "Verein": "FC Augsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "22",
-    "Notendurchschnitt": "4.11"
+    "Punkte": "24",
+    "Notendurchschnitt": "4.17"
   },
   {
     "ID": "pl-k00097350",
@@ -3356,8 +3284,8 @@
     "Verein": "FC Augsburg",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "95",
-    "Notendurchschnitt": "3.63"
+    "Punkte": "126",
+    "Notendurchschnitt": "3.58"
   },
   {
     "ID": "pl-k00097392",
@@ -3368,7 +3296,7 @@
     "Verein": "1. FC Heidenheim",
     "Position": "FORWARD",
     "Marktwert": "2300000",
-    "Punkte": "57",
+    "Punkte": "61",
     "Notendurchschnitt": "3.55"
   },
   {
@@ -3380,8 +3308,8 @@
     "Verein": "FC Augsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "146",
-    "Notendurchschnitt": "3.31"
+    "Punkte": "164",
+    "Notendurchschnitt": "3.43"
   },
   {
     "ID": "pl-k00097526",
@@ -3392,8 +3320,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "FORWARD",
     "Marktwert": "2000000",
-    "Punkte": "6",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "12",
+    "Notendurchschnitt": "3.5"
   },
   {
     "ID": "pl-k00097629",
@@ -3404,8 +3332,8 @@
     "Verein": "VfL Bochum",
     "Position": "DEFENDER",
     "Marktwert": "1500000",
-    "Punkte": "36",
-    "Notendurchschnitt": "4.11"
+    "Punkte": "38",
+    "Notendurchschnitt": "4.1"
   },
   {
     "ID": "pl-k00097797",
@@ -3428,7 +3356,7 @@
     "Verein": "Holstein Kiel",
     "Position": "DEFENDER",
     "Marktwert": "1000000",
-    "Punkte": "43",
+    "Punkte": "45",
     "Notendurchschnitt": "3.93"
   },
   {
@@ -3440,8 +3368,8 @@
     "Verein": "FC St. Pauli",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "46",
-    "Notendurchschnitt": "3.68"
+    "Punkte": "58",
+    "Notendurchschnitt": "3.75"
   },
   {
     "ID": "pl-k00098165",
@@ -3452,8 +3380,8 @@
     "Verein": "FC Augsburg",
     "Position": "FORWARD",
     "Marktwert": "2200000",
-    "Punkte": "31",
-    "Notendurchschnitt": "3.58"
+    "Punkte": "35",
+    "Notendurchschnitt": "3.57"
   },
   {
     "ID": "pl-k00098320",
@@ -3476,8 +3404,8 @@
     "Verein": "VfL Bochum",
     "Position": "FORWARD",
     "Marktwert": "1700000",
-    "Punkte": "74",
-    "Notendurchschnitt": "3.45"
+    "Punkte": "60",
+    "Notendurchschnitt": "3.94"
   },
   {
     "ID": "pl-k00099583",
@@ -3500,8 +3428,8 @@
     "Verein": "VfL Bochum",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "130",
-    "Notendurchschnitt": "3.37"
+    "Punkte": "139",
+    "Notendurchschnitt": "3.45"
   },
   {
     "ID": "pl-k00099757",
@@ -3512,7 +3440,7 @@
     "Verein": "VfL Wolfsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "64",
+    "Punkte": "66",
     "Notendurchschnitt": "3.77"
   },
   {
@@ -3524,8 +3452,8 @@
     "Verein": "RB Leipzig",
     "Position": "MIDFIELDER",
     "Marktwert": "2800000",
-    "Punkte": "60",
-    "Notendurchschnitt": "3.79"
+    "Punkte": "72",
+    "Notendurchschnitt": "3.76"
   },
   {
     "ID": "pl-k00099897",
@@ -3536,7 +3464,7 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "34",
+    "Punkte": "36",
     "Notendurchschnitt": "3.85"
   },
   {
@@ -3548,8 +3476,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "DEFENDER",
     "Marktwert": "2200000",
-    "Punkte": "51",
-    "Notendurchschnitt": "3.98"
+    "Punkte": "57",
+    "Notendurchschnitt": "3.93"
   },
   {
     "ID": "pl-k00099917",
@@ -3596,8 +3524,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "143",
-    "Notendurchschnitt": "3.31"
+    "Punkte": "169",
+    "Notendurchschnitt": "3.33"
   },
   {
     "ID": "pl-k00100445",
@@ -3620,8 +3548,8 @@
     "Verein": "RB Leipzig",
     "Position": "DEFENDER",
     "Marktwert": "2600000",
-    "Punkte": "56",
-    "Notendurchschnitt": "3.81"
+    "Punkte": "62",
+    "Notendurchschnitt": "3.83"
   },
   {
     "ID": "pl-k00100591",
@@ -3632,8 +3560,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "188",
-    "Notendurchschnitt": "2.91"
+    "Punkte": "230",
+    "Notendurchschnitt": "2.89"
   },
   {
     "ID": "pl-k00100593",
@@ -3680,8 +3608,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "FORWARD",
     "Marktwert": "1800000",
-    "Punkte": "143",
-    "Notendurchschnitt": "3.48"
+    "Punkte": "172",
+    "Notendurchschnitt": "3.5"
   },
   {
     "ID": "pl-k00101460",
@@ -3692,8 +3620,8 @@
     "Verein": "FC Augsburg",
     "Position": "DEFENDER",
     "Marktwert": "2800000",
-    "Punkte": "78",
-    "Notendurchschnitt": "3.43"
+    "Punkte": "80",
+    "Notendurchschnitt": "3.5"
   },
   {
     "ID": "pl-k00101614",
@@ -3704,8 +3632,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "94",
-    "Notendurchschnitt": "3.6"
+    "Punkte": "119",
+    "Notendurchschnitt": "3.57"
   },
   {
     "ID": "pl-k00101639",
@@ -3716,8 +3644,8 @@
     "Verein": "VfL Bochum",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "38",
-    "Notendurchschnitt": "4.21"
+    "Punkte": "44",
+    "Notendurchschnitt": "4.19"
   },
   {
     "ID": "pl-k00101673",
@@ -3728,8 +3656,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "FORWARD",
     "Marktwert": "1700000",
-    "Punkte": "24",
-    "Notendurchschnitt": "4.0"
+    "Punkte": "30",
+    "Notendurchschnitt": "4.17"
   },
   {
     "ID": "pl-k00101721",
@@ -3752,8 +3680,8 @@
     "Verein": "FC St. Pauli",
     "Position": "DEFENDER",
     "Marktwert": "1200000",
-    "Punkte": "27",
-    "Notendurchschnitt": "3.79"
+    "Punkte": "34",
+    "Notendurchschnitt": "3.77"
   },
   {
     "ID": "pl-k00101899",
@@ -3764,8 +3692,8 @@
     "Verein": "FC Augsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1700000",
-    "Punkte": "92",
-    "Notendurchschnitt": "3.54"
+    "Punkte": "106",
+    "Notendurchschnitt": "3.62"
   },
   {
     "ID": "pl-k00101934",
@@ -3776,8 +3704,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "8",
-    "Notendurchschnitt": "3.88"
+    "Punkte": "10",
+    "Notendurchschnitt": "3.9"
   },
   {
     "ID": "pl-k00102731",
@@ -3788,8 +3716,8 @@
     "Verein": "Bayern München",
     "Position": "DEFENDER",
     "Marktwert": "2500000",
-    "Punkte": "20",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "54",
+    "Notendurchschnitt": "3.28"
   },
   {
     "ID": "pl-k00102736",
@@ -3807,13 +3735,13 @@
     "ID": "pl-k00102795",
     "Vorname": "Luca",
     "Nachname": "Philipp",
-    "Angezeigter Name (kurz)": "L. Philipp",
+    "Angezeigter Name (kurz)": "Philipp",
     "Angezeigter Name": "Luca Philipp",
     "Verein": "TSG Hoffenheim",
     "Position": "GOALKEEPER",
     "Marktwert": "800000",
-    "Punkte": "35",
-    "Notendurchschnitt": "2.9"
+    "Punkte": "37",
+    "Notendurchschnitt": "3.08"
   },
   {
     "ID": "pl-k00102800",
@@ -3824,8 +3752,8 @@
     "Verein": "RB Leipzig",
     "Position": "MIDFIELDER",
     "Marktwert": "3000000",
-    "Punkte": "72",
-    "Notendurchschnitt": "3.79"
+    "Punkte": "76",
+    "Notendurchschnitt": "3.88"
   },
   {
     "ID": "pl-k00102817",
@@ -3836,8 +3764,8 @@
     "Verein": "SC Freiburg",
     "Position": "MIDFIELDER",
     "Marktwert": "4000000",
-    "Punkte": "194",
-    "Notendurchschnitt": "3.15"
+    "Punkte": "244",
+    "Notendurchschnitt": "3.08"
   },
   {
     "ID": "pl-k00102874",
@@ -3860,8 +3788,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "GOALKEEPER",
     "Marktwert": "2800000",
-    "Punkte": "153",
-    "Notendurchschnitt": "2.95"
+    "Punkte": "183",
+    "Notendurchschnitt": "3.02"
   },
   {
     "ID": "pl-k00102978",
@@ -3872,7 +3800,7 @@
     "Verein": "TSG Hoffenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1300000",
-    "Punkte": "27",
+    "Punkte": "33",
     "Notendurchschnitt": "3.81"
   },
   {
@@ -3896,8 +3824,8 @@
     "Verein": "FC St. Pauli",
     "Position": "DEFENDER",
     "Marktwert": "1400000",
-    "Punkte": "105",
-    "Notendurchschnitt": "3.58"
+    "Punkte": "133",
+    "Notendurchschnitt": "3.53"
   },
   {
     "ID": "pl-k00103374",
@@ -3908,8 +3836,8 @@
     "Verein": "SC Freiburg",
     "Position": "MIDFIELDER",
     "Marktwert": "2400000",
-    "Punkte": "79",
-    "Notendurchschnitt": "3.6"
+    "Punkte": "122",
+    "Notendurchschnitt": "3.46"
   },
   {
     "ID": "pl-k00103375",
@@ -3932,8 +3860,8 @@
     "Verein": "FC St. Pauli",
     "Position": "FORWARD",
     "Marktwert": "800000",
-    "Punkte": "31",
-    "Notendurchschnitt": "4.31"
+    "Punkte": "49",
+    "Notendurchschnitt": "4.21"
   },
   {
     "ID": "pl-k00103695",
@@ -3944,8 +3872,8 @@
     "Verein": "FC Augsburg",
     "Position": "DEFENDER",
     "Marktwert": "1000000",
-    "Punkte": "12",
-    "Notendurchschnitt": "3.25"
+    "Punkte": "16",
+    "Notendurchschnitt": "3.5"
   },
   {
     "ID": "pl-k00103759",
@@ -3980,8 +3908,8 @@
     "Verein": "Bayern München",
     "Position": "DEFENDER",
     "Marktwert": "3500000",
-    "Punkte": "141",
-    "Notendurchschnitt": "3.17"
+    "Punkte": "149",
+    "Notendurchschnitt": "3.24"
   },
   {
     "ID": "pl-k00103978",
@@ -4004,8 +3932,8 @@
     "Verein": "VfL Bochum",
     "Position": "FORWARD",
     "Marktwert": "1600000",
-    "Punkte": "37",
-    "Notendurchschnitt": "3.57"
+    "Punkte": "29",
+    "Notendurchschnitt": "4.08"
   },
   {
     "ID": "pl-k00104010",
@@ -4016,8 +3944,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1000000",
-    "Punkte": "6",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "8",
+    "Notendurchschnitt": "5.0"
   },
   {
     "ID": "pl-k00104317",
@@ -4028,8 +3956,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "MIDFIELDER",
     "Marktwert": "4500000",
-    "Punkte": "149",
-    "Notendurchschnitt": "3.28"
+    "Punkte": "183",
+    "Notendurchschnitt": "3.24"
   },
   {
     "ID": "pl-k00104484",
@@ -4040,8 +3968,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "DEFENDER",
     "Marktwert": "3200000",
-    "Punkte": "50",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "74",
+    "Notendurchschnitt": "3.44"
   },
   {
     "ID": "pl-k00104485",
@@ -4052,8 +3980,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "DEFENDER",
     "Marktwert": "2800000",
-    "Punkte": "74",
-    "Notendurchschnitt": "3.7"
+    "Punkte": "117",
+    "Notendurchschnitt": "3.55"
   },
   {
     "ID": "pl-k00104895",
@@ -4064,8 +3992,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "MIDFIELDER",
     "Marktwert": "3000000",
-    "Punkte": "99",
-    "Notendurchschnitt": "3.24"
+    "Punkte": "111",
+    "Notendurchschnitt": "3.43"
   },
   {
     "ID": "pl-k00104978",
@@ -4076,8 +4004,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "FORWARD",
     "Marktwert": "1800000",
-    "Punkte": "89",
-    "Notendurchschnitt": "3.74"
+    "Punkte": "134",
+    "Notendurchschnitt": "3.55"
   },
   {
     "ID": "pl-k00105180",
@@ -4088,8 +4016,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "FORWARD",
     "Marktwert": "2600000",
-    "Punkte": "108",
-    "Notendurchschnitt": "3.32"
+    "Punkte": "124",
+    "Notendurchschnitt": "3.36"
   },
   {
     "ID": "pl-k00105274",
@@ -4100,8 +4028,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "GOALKEEPER",
     "Marktwert": "500000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "16",
+    "Notendurchschnitt": "2.5"
   },
   {
     "ID": "pl-k00105275",
@@ -4112,8 +4040,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "DEFENDER",
     "Marktwert": "1200000",
-    "Punkte": "22",
-    "Notendurchschnitt": "4.13"
+    "Punkte": "32",
+    "Notendurchschnitt": "4.06"
   },
   {
     "ID": "pl-k00105566",
@@ -4124,8 +4052,8 @@
     "Verein": "VfL Bochum",
     "Position": "FORWARD",
     "Marktwert": "1200000",
-    "Punkte": "29",
-    "Notendurchschnitt": "4.32"
+    "Punkte": "37",
+    "Notendurchschnitt": "4.33"
   },
   {
     "ID": "pl-k00105841",
@@ -4136,8 +4064,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "FORWARD",
     "Marktwert": "3000000",
-    "Punkte": "73",
-    "Notendurchschnitt": "3.69"
+    "Punkte": "123",
+    "Notendurchschnitt": "3.45"
   },
   {
     "ID": "pl-k00105845",
@@ -4148,7 +4076,7 @@
     "Verein": "SC Freiburg",
     "Position": "GOALKEEPER",
     "Marktwert": "2600000",
-    "Punkte": "160",
+    "Punkte": "166",
     "Notendurchschnitt": "3.04"
   },
   {
@@ -4160,8 +4088,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "FORWARD",
     "Marktwert": "3800000",
-    "Punkte": "107",
-    "Notendurchschnitt": "3.6"
+    "Punkte": "126",
+    "Notendurchschnitt": "3.64"
   },
   {
     "ID": "pl-k00106078",
@@ -4184,8 +4112,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "128",
-    "Notendurchschnitt": "3.34"
+    "Punkte": "156",
+    "Notendurchschnitt": "3.38"
   },
   {
     "ID": "pl-k00106313",
@@ -4196,8 +4124,8 @@
     "Verein": "Holstein Kiel",
     "Position": "FORWARD",
     "Marktwert": "1400000",
-    "Punkte": "91",
-    "Notendurchschnitt": "3.77"
+    "Punkte": "144",
+    "Notendurchschnitt": "3.61"
   },
   {
     "ID": "pl-k00106358",
@@ -4220,8 +4148,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "38",
-    "Notendurchschnitt": "3.71"
+    "Punkte": "52",
+    "Notendurchschnitt": "3.56"
   },
   {
     "ID": "pl-k00106697",
@@ -4232,8 +4160,8 @@
     "Verein": "Holstein Kiel",
     "Position": "DEFENDER",
     "Marktwert": "800000",
-    "Punkte": "37",
-    "Notendurchschnitt": "4.06"
+    "Punkte": "70",
+    "Notendurchschnitt": "3.89"
   },
   {
     "ID": "pl-k00106698",
@@ -4244,8 +4172,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "FORWARD",
     "Marktwert": "1800000",
-    "Punkte": "144",
-    "Notendurchschnitt": "2.86"
+    "Punkte": "189",
+    "Notendurchschnitt": "2.71"
   },
   {
     "ID": "pl-k00106928",
@@ -4256,7 +4184,7 @@
     "Verein": "Borussia Dortmund",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "73",
+    "Punkte": "95",
     "Notendurchschnitt": "3.61"
   },
   {
@@ -4268,8 +4196,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "DEFENDER",
     "Marktwert": "2200000",
-    "Punkte": "41",
-    "Notendurchschnitt": "2.92"
+    "Punkte": "37",
+    "Notendurchschnitt": "3.5"
   },
   {
     "ID": "pl-k00107678",
@@ -4316,8 +4244,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "34",
-    "Notendurchschnitt": "4.05"
+    "Punkte": "38",
+    "Notendurchschnitt": "4.13"
   },
   {
     "ID": "pl-k00107689",
@@ -4352,8 +4280,8 @@
     "Verein": "Bayern München",
     "Position": "MIDFIELDER",
     "Marktwert": "7000000",
-    "Punkte": "212",
-    "Notendurchschnitt": "2.82"
+    "Punkte": "222",
+    "Notendurchschnitt": "2.83"
   },
   {
     "ID": "pl-k00107693",
@@ -4364,8 +4292,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "MIDFIELDER",
     "Marktwert": "8500000",
-    "Punkte": "278",
-    "Notendurchschnitt": "2.29"
+    "Punkte": "319",
+    "Notendurchschnitt": "2.4"
   },
   {
     "ID": "pl-k00107843",
@@ -4376,8 +4304,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "48",
-    "Notendurchschnitt": "3.68"
+    "Punkte": "66",
+    "Notendurchschnitt": "3.54"
   },
   {
     "ID": "pl-k00108204",
@@ -4400,7 +4328,7 @@
     "Verein": "1. FC Heidenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "118",
+    "Punkte": "148",
     "Notendurchschnitt": "3.5"
   },
   {
@@ -4412,8 +4340,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "FORWARD",
     "Marktwert": "1700000",
-    "Punkte": "123",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "147",
+    "Notendurchschnitt": "3.53"
   },
   {
     "ID": "pl-k00109835",
@@ -4424,7 +4352,7 @@
     "Verein": "1. FC Heidenheim",
     "Position": "DEFENDER",
     "Marktwert": "500000",
-    "Punkte": "6",
+    "Punkte": "10",
     "Notendurchschnitt": "4.25"
   },
   {
@@ -4436,8 +4364,8 @@
     "Verein": "VfL Bochum",
     "Position": "DEFENDER",
     "Marktwert": "1500000",
-    "Punkte": "39",
-    "Notendurchschnitt": "4.03"
+    "Punkte": "53",
+    "Notendurchschnitt": "3.91"
   },
   {
     "ID": "pl-k00109981",
@@ -4472,8 +4400,8 @@
     "Verein": "Holstein Kiel",
     "Position": "MIDFIELDER",
     "Marktwert": "1400000",
-    "Punkte": "54",
-    "Notendurchschnitt": "3.95"
+    "Punkte": "80",
+    "Notendurchschnitt": "3.81"
   },
   {
     "ID": "pl-k00110406",
@@ -4556,8 +4484,8 @@
     "Verein": "RB Leipzig",
     "Position": "FORWARD",
     "Marktwert": "8000000",
-    "Punkte": "154",
-    "Notendurchschnitt": "3.44"
+    "Punkte": "171",
+    "Notendurchschnitt": "3.53"
   },
   {
     "ID": "pl-k00110890",
@@ -4568,8 +4496,8 @@
     "Verein": "FC St. Pauli",
     "Position": "GOALKEEPER",
     "Marktwert": "1000000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "17",
+    "Notendurchschnitt": "2.0"
   },
   {
     "ID": "pl-k00110984",
@@ -4604,8 +4532,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "49",
-    "Notendurchschnitt": "3.76"
+    "Punkte": "53",
+    "Notendurchschnitt": "3.83"
   },
   {
     "ID": "pl-k00111795",
@@ -4616,8 +4544,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "FORWARD",
     "Marktwert": "1800000",
-    "Punkte": "12",
-    "Notendurchschnitt": "4.0"
+    "Punkte": "17",
+    "Notendurchschnitt": "4.06"
   },
   {
     "ID": "pl-k00111919",
@@ -4628,8 +4556,8 @@
     "Verein": "SC Freiburg",
     "Position": "DEFENDER",
     "Marktwert": "500000",
-    "Punkte": "56",
-    "Notendurchschnitt": "3.4"
+    "Punkte": "96",
+    "Notendurchschnitt": "3.21"
   },
   {
     "ID": "pl-k00111921",
@@ -4652,7 +4580,7 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "FORWARD",
     "Marktwert": "1700000",
-    "Punkte": "52",
+    "Punkte": "58",
     "Notendurchschnitt": "3.88"
   },
   {
@@ -4664,8 +4592,8 @@
     "Verein": "FC St. Pauli",
     "Position": "DEFENDER",
     "Marktwert": "1000000",
-    "Punkte": "16",
-    "Notendurchschnitt": "3.88"
+    "Punkte": "18",
+    "Notendurchschnitt": "3.92"
   },
   {
     "ID": "pl-k00112134",
@@ -4676,8 +4604,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "DEFENDER",
     "Marktwert": "2800000",
-    "Punkte": "108",
-    "Notendurchschnitt": "3.47"
+    "Punkte": "116",
+    "Notendurchschnitt": "3.65"
   },
   {
     "ID": "pl-k00112498",
@@ -4688,8 +4616,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "FORWARD",
     "Marktwert": "1600000",
-    "Punkte": "41",
-    "Notendurchschnitt": "4.17"
+    "Punkte": "50",
+    "Notendurchschnitt": "4.25"
   },
   {
     "ID": "pl-k00112572",
@@ -4760,8 +4688,8 @@
     "Verein": "RB Leipzig",
     "Position": "GOALKEEPER",
     "Marktwert": "1000000",
-    "Punkte": "14",
-    "Notendurchschnitt": "3.17"
+    "Punkte": "24",
+    "Notendurchschnitt": "3.3"
   },
   {
     "ID": "pl-k00113083",
@@ -4796,8 +4724,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "DEFENDER",
     "Marktwert": "1500000",
-    "Punkte": "60",
-    "Notendurchschnitt": "3.92"
+    "Punkte": "62",
+    "Notendurchschnitt": "4.0"
   },
   {
     "ID": "pl-k00113667",
@@ -4808,8 +4736,8 @@
     "Verein": "FC St. Pauli",
     "Position": "DEFENDER",
     "Marktwert": "1000000",
-    "Punkte": "52",
-    "Notendurchschnitt": "3.76"
+    "Punkte": "78",
+    "Notendurchschnitt": "3.67"
   },
   {
     "ID": "pl-k00114601",
@@ -4820,8 +4748,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "DEFENDER",
     "Marktwert": "3600000",
-    "Punkte": "116",
-    "Notendurchschnitt": "3.24"
+    "Punkte": "124",
+    "Notendurchschnitt": "3.39"
   },
   {
     "ID": "pl-k00114612",
@@ -4832,7 +4760,7 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "100",
+    "Punkte": "124",
     "Notendurchschnitt": "3.5"
   },
   {
@@ -4844,8 +4772,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "40",
-    "Notendurchschnitt": "4.0"
+    "Punkte": "62",
+    "Notendurchschnitt": "3.86"
   },
   {
     "ID": "pl-k00114735",
@@ -4868,8 +4796,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "FORWARD",
     "Marktwert": "4800000",
-    "Punkte": "101",
-    "Notendurchschnitt": "3.69"
+    "Punkte": "124",
+    "Notendurchschnitt": "3.63"
   },
   {
     "ID": "pl-k00114751",
@@ -4880,8 +4808,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "10",
-    "Notendurchschnitt": "4.07"
+    "Punkte": "37",
+    "Notendurchschnitt": "3.77"
   },
   {
     "ID": "pl-k00114803",
@@ -4916,7 +4844,7 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "FORWARD",
     "Marktwert": "2200000",
-    "Punkte": "31",
+    "Punkte": "33",
     "Notendurchschnitt": "3.8"
   },
   {
@@ -4964,8 +4892,8 @@
     "Verein": "Bayern München",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "20",
-    "Notendurchschnitt": "3.86"
+    "Punkte": "26",
+    "Notendurchschnitt": "3.8"
   },
   {
     "ID": "pl-k00116276",
@@ -5012,8 +4940,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "FORWARD",
     "Marktwert": "1600000",
-    "Punkte": "98",
-    "Notendurchschnitt": "3.72"
+    "Punkte": "102",
+    "Notendurchschnitt": "3.8"
   },
   {
     "ID": "pl-k00116633",
@@ -5060,8 +4988,8 @@
     "Verein": "FC Augsburg",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "122",
-    "Notendurchschnitt": "3.2"
+    "Punkte": "140",
+    "Notendurchschnitt": "3.32"
   },
   {
     "ID": "pl-k00116714",
@@ -5072,8 +5000,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "MIDFIELDER",
     "Marktwert": "3500000",
-    "Punkte": "137",
-    "Notendurchschnitt": "3.29"
+    "Punkte": "162",
+    "Notendurchschnitt": "3.24"
   },
   {
     "ID": "pl-k00116735",
@@ -5084,8 +5012,8 @@
     "Verein": "Holstein Kiel",
     "Position": "MIDFIELDER",
     "Marktwert": "1200000",
-    "Punkte": "68",
-    "Notendurchschnitt": "3.9"
+    "Punkte": "98",
+    "Notendurchschnitt": "3.81"
   },
   {
     "ID": "pl-k00117298",
@@ -5096,8 +5024,8 @@
     "Verein": "Werder Bremen",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "146",
-    "Notendurchschnitt": "3.3"
+    "Punkte": "187",
+    "Notendurchschnitt": "3.29"
   },
   {
     "ID": "pl-k00117336",
@@ -5120,7 +5048,7 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "48",
+    "Punkte": "50",
     "Notendurchschnitt": "3.86"
   },
   {
@@ -5132,7 +5060,7 @@
     "Verein": "VfB Stuttgart",
     "Position": "FORWARD",
     "Marktwert": "2500000",
-    "Punkte": "33",
+    "Punkte": "35",
     "Notendurchschnitt": "3.88"
   },
   {
@@ -5168,7 +5096,7 @@
     "Verein": "VfL Bochum",
     "Position": "FORWARD",
     "Marktwert": "1400000",
-    "Punkte": "8",
+    "Punkte": "10",
     "Notendurchschnitt": "0.0"
   },
   {
@@ -5180,8 +5108,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "DEFENDER",
     "Marktwert": "600000",
-    "Punkte": "67",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "83",
+    "Notendurchschnitt": "3.47"
   },
   {
     "ID": "pl-k00118066",
@@ -5204,7 +5132,7 @@
     "Verein": "TSG Hoffenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1700000",
-    "Punkte": "12",
+    "Punkte": "16",
     "Notendurchschnitt": "4.08"
   },
   {
@@ -5276,8 +5204,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "DEFENDER",
     "Marktwert": "1500000",
-    "Punkte": "76",
-    "Notendurchschnitt": "3.73"
+    "Punkte": "107",
+    "Notendurchschnitt": "3.67"
   },
   {
     "ID": "pl-k00118291",
@@ -5288,8 +5216,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "78",
-    "Notendurchschnitt": "3.75"
+    "Punkte": "109",
+    "Notendurchschnitt": "3.63"
   },
   {
     "ID": "pl-k00118312",
@@ -5300,8 +5228,8 @@
     "Verein": "Werder Bremen",
     "Position": "FORWARD",
     "Marktwert": "2000000",
-    "Punkte": "43",
-    "Notendurchschnitt": "4.14"
+    "Punkte": "51",
+    "Notendurchschnitt": "4.15"
   },
   {
     "ID": "pl-k00118660",
@@ -5312,7 +5240,7 @@
     "Verein": "Holstein Kiel",
     "Position": "FORWARD",
     "Marktwert": "1500000",
-    "Punkte": "29",
+    "Punkte": "31",
     "Notendurchschnitt": "4.09"
   },
   {
@@ -5324,8 +5252,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "GOALKEEPER",
     "Marktwert": "1000000",
-    "Punkte": "22",
-    "Notendurchschnitt": "3.0"
+    "Punkte": "24",
+    "Notendurchschnitt": "3.6"
   },
   {
     "ID": "pl-k00118755",
@@ -5336,7 +5264,7 @@
     "Verein": "Borussia Dortmund",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "42",
+    "Punkte": "44",
     "Notendurchschnitt": "3.5"
   },
   {
@@ -5408,8 +5336,8 @@
     "Verein": "Holstein Kiel",
     "Position": "FORWARD",
     "Marktwert": "600000",
-    "Punkte": "78",
-    "Notendurchschnitt": "3.81"
+    "Punkte": "84",
+    "Notendurchschnitt": "3.85"
   },
   {
     "ID": "pl-k00119706",
@@ -5420,7 +5348,7 @@
     "Verein": "SC Freiburg",
     "Position": "FORWARD",
     "Marktwert": "3200000",
-    "Punkte": "42",
+    "Punkte": "44",
     "Notendurchschnitt": "4.0"
   },
   {
@@ -5468,8 +5396,8 @@
     "Verein": "FC Augsburg",
     "Position": "FORWARD",
     "Marktwert": "1800000",
-    "Punkte": "69",
-    "Notendurchschnitt": "3.92"
+    "Punkte": "72",
+    "Notendurchschnitt": "4.0"
   },
   {
     "ID": "pl-k00119825",
@@ -5480,8 +5408,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "FORWARD",
     "Marktwert": "2600000",
-    "Punkte": "51",
-    "Notendurchschnitt": "3.29"
+    "Punkte": "59",
+    "Notendurchschnitt": "3.54"
   },
   {
     "ID": "pl-k00119858",
@@ -5492,7 +5420,7 @@
     "Verein": "SC Freiburg",
     "Position": "MIDFIELDER",
     "Marktwert": "2500000",
-    "Punkte": "36",
+    "Punkte": "40",
     "Notendurchschnitt": "3.88"
   },
   {
@@ -5504,7 +5432,7 @@
     "Verein": "TSG Hoffenheim",
     "Position": "FORWARD",
     "Marktwert": "1500000",
-    "Punkte": "-2",
+    "Punkte": "0",
     "Notendurchschnitt": "4.6"
   },
   {
@@ -5564,7 +5492,7 @@
     "Verein": "Werder Bremen",
     "Position": "FORWARD",
     "Marktwert": "1400000",
-    "Punkte": "27",
+    "Punkte": "33",
     "Notendurchschnitt": "5.0"
   },
   {
@@ -5600,8 +5528,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "DEFENDER",
     "Marktwert": "6000000",
-    "Punkte": "171",
-    "Notendurchschnitt": "3.06"
+    "Punkte": "194",
+    "Notendurchschnitt": "3.17"
   },
   {
     "ID": "pl-k00123335",
@@ -5636,8 +5564,8 @@
     "Verein": "Bayern München",
     "Position": "GOALKEEPER",
     "Marktwert": "1000000",
-    "Punkte": "12",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "44",
+    "Notendurchschnitt": "3.25"
   },
   {
     "ID": "pl-k00123524",
@@ -5648,8 +5576,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "DEFENDER",
     "Marktwert": "3600000",
-    "Punkte": "4",
-    "Notendurchschnitt": "4.46"
+    "Punkte": "14",
+    "Notendurchschnitt": "4.35"
   },
   {
     "ID": "pl-k00123844",
@@ -5660,8 +5588,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "DEFENDER",
     "Marktwert": "2600000",
-    "Punkte": "170",
-    "Notendurchschnitt": "2.85"
+    "Punkte": "200",
+    "Notendurchschnitt": "2.92"
   },
   {
     "ID": "pl-k00123991",
@@ -5672,7 +5600,7 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "DEFENDER",
     "Marktwert": "1600000",
-    "Punkte": "34",
+    "Punkte": "36",
     "Notendurchschnitt": "3.25"
   },
   {
@@ -5708,8 +5636,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "18",
-    "Notendurchschnitt": "4.13"
+    "Punkte": "22",
+    "Notendurchschnitt": "4.14"
   },
   {
     "ID": "pl-k00124455",
@@ -5720,8 +5648,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "108",
-    "Notendurchschnitt": "3.42"
+    "Punkte": "120",
+    "Notendurchschnitt": "3.46"
   },
   {
     "ID": "pl-k00124479",
@@ -5744,8 +5672,8 @@
     "Verein": "FC St. Pauli",
     "Position": "MIDFIELDER",
     "Marktwert": "1400000",
-    "Punkte": "4",
-    "Notendurchschnitt": "4.13"
+    "Punkte": "11",
+    "Notendurchschnitt": "4.1"
   },
   {
     "ID": "pl-k00124865",
@@ -5768,8 +5696,8 @@
     "Verein": "Bayern München",
     "Position": "MIDFIELDER",
     "Marktwert": "5000000",
-    "Punkte": "238",
-    "Notendurchschnitt": "2.75"
+    "Punkte": "313",
+    "Notendurchschnitt": "2.68"
   },
   {
     "ID": "pl-k00125269",
@@ -5780,8 +5708,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "107",
-    "Notendurchschnitt": "3.33"
+    "Punkte": "121",
+    "Notendurchschnitt": "3.46"
   },
   {
     "ID": "pl-k00125581",
@@ -5804,8 +5732,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "40",
-    "Notendurchschnitt": "3.8"
+    "Punkte": "50",
+    "Notendurchschnitt": "3.86"
   },
   {
     "ID": "pl-k00125797",
@@ -5828,8 +5756,8 @@
     "Verein": "Holstein Kiel",
     "Position": "DEFENDER",
     "Marktwert": "1400000",
-    "Punkte": "14",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "42",
+    "Notendurchschnitt": "3.44"
   },
   {
     "ID": "pl-k00125915",
@@ -5864,8 +5792,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1700000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "8",
+    "Notendurchschnitt": "3.75"
   },
   {
     "ID": "pl-k00126766",
@@ -5875,7 +5803,7 @@
     "Angezeigter Name": "Yannik Lührs",
     "Verein": "Borussia Dortmund",
     "Position": "DEFENDER",
-    "Marktwert": "999000000",
+    "Marktwert": "500000",
     "Punkte": "6",
     "Notendurchschnitt": "3.75"
   },
@@ -5888,8 +5816,8 @@
     "Verein": "Werder Bremen",
     "Position": "FORWARD",
     "Marktwert": "1800000",
-    "Punkte": "86",
-    "Notendurchschnitt": "3.73"
+    "Punkte": "98",
+    "Notendurchschnitt": "3.71"
   },
   {
     "ID": "pl-k00129074",
@@ -5912,8 +5840,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "FORWARD",
     "Marktwert": "3000000",
-    "Punkte": "68",
-    "Notendurchschnitt": "3.57"
+    "Punkte": "78",
+    "Notendurchschnitt": "3.75"
   },
   {
     "ID": "pl-k00129212",
@@ -5924,7 +5852,7 @@
     "Verein": "SC Freiburg",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "75",
+    "Punkte": "87",
     "Notendurchschnitt": "3.06"
   },
   {
@@ -5936,8 +5864,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "DEFENDER",
     "Marktwert": "2700000",
-    "Punkte": "103",
-    "Notendurchschnitt": "3.4"
+    "Punkte": "135",
+    "Notendurchschnitt": "3.37"
   },
   {
     "ID": "pl-k00129496",
@@ -6008,8 +5936,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "DEFENDER",
     "Marktwert": "1400000",
-    "Punkte": "111",
-    "Notendurchschnitt": "3.29"
+    "Punkte": "133",
+    "Notendurchschnitt": "3.39"
   },
   {
     "ID": "pl-k00129690",
@@ -6068,7 +5996,7 @@
     "Verein": "FC St. Pauli",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "10",
+    "Punkte": "18",
     "Notendurchschnitt": "4.3"
   },
   {
@@ -6104,8 +6032,8 @@
     "Verein": "SC Freiburg",
     "Position": "FORWARD",
     "Marktwert": "1500000",
-    "Punkte": "33",
-    "Notendurchschnitt": "4.13"
+    "Punkte": "51",
+    "Notendurchschnitt": "4.03"
   },
   {
     "ID": "pl-k00130252",
@@ -6116,8 +6044,8 @@
     "Verein": "RB Leipzig",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "50",
-    "Notendurchschnitt": "3.78"
+    "Punkte": "72",
+    "Notendurchschnitt": "3.73"
   },
   {
     "ID": "pl-k00130399",
@@ -6200,8 +6128,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "49",
-    "Notendurchschnitt": "3.55"
+    "Punkte": "85",
+    "Notendurchschnitt": "3.34"
   },
   {
     "ID": "pl-k00130568",
@@ -6212,7 +6140,7 @@
     "Verein": "Bayern München",
     "Position": "FORWARD",
     "Marktwert": "1200000",
-    "Punkte": "2",
+    "Punkte": "8",
     "Notendurchschnitt": "0.0"
   },
   {
@@ -6236,8 +6164,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "84",
-    "Notendurchschnitt": "3.13"
+    "Punkte": "94",
+    "Notendurchschnitt": "3.22"
   },
   {
     "ID": "pl-k00130697",
@@ -6308,8 +6236,8 @@
     "Verein": "VfL Bochum",
     "Position": "DEFENDER",
     "Marktwert": "1400000",
-    "Punkte": "65",
-    "Notendurchschnitt": "3.82"
+    "Punkte": "71",
+    "Notendurchschnitt": "3.92"
   },
   {
     "ID": "pl-k00131060",
@@ -6368,8 +6296,8 @@
     "Verein": "RB Leipzig",
     "Position": "MIDFIELDER",
     "Marktwert": "6500000",
-    "Punkte": "133",
-    "Notendurchschnitt": "3.32"
+    "Punkte": "166",
+    "Notendurchschnitt": "3.38"
   },
   {
     "ID": "pl-k00131115",
@@ -6392,7 +6320,7 @@
     "Verein": "1. FC Heidenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1000000",
-    "Punkte": "30",
+    "Punkte": "38",
     "Notendurchschnitt": "4.1"
   },
   {
@@ -6440,8 +6368,8 @@
     "Verein": "FC Augsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1200000",
-    "Punkte": "30",
-    "Notendurchschnitt": "3.81"
+    "Punkte": "32",
+    "Notendurchschnitt": "3.91"
   },
   {
     "ID": "pl-k00131588",
@@ -6452,8 +6380,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "FORWARD",
     "Marktwert": "2400000",
-    "Punkte": "113",
-    "Notendurchschnitt": "3.64"
+    "Punkte": "128",
+    "Notendurchschnitt": "3.63"
   },
   {
     "ID": "pl-k00131800",
@@ -6464,8 +6392,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1400000",
-    "Punkte": "83",
-    "Notendurchschnitt": "3.53"
+    "Punkte": "79",
+    "Notendurchschnitt": "3.68"
   },
   {
     "ID": "pl-k00131919",
@@ -6476,8 +6404,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "FORWARD",
     "Marktwert": "3500000",
-    "Punkte": "178",
-    "Notendurchschnitt": "3.3"
+    "Punkte": "221",
+    "Notendurchschnitt": "3.31"
   },
   {
     "ID": "pl-k00131930",
@@ -6488,8 +6416,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "42",
-    "Notendurchschnitt": "3.95"
+    "Punkte": "56",
+    "Notendurchschnitt": "3.77"
   },
   {
     "ID": "pl-k00132029",
@@ -6560,8 +6488,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1300000",
-    "Punkte": "116",
-    "Notendurchschnitt": "3.58"
+    "Punkte": "144",
+    "Notendurchschnitt": "3.53"
   },
   {
     "ID": "pl-k00132188",
@@ -6632,8 +6560,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "GOALKEEPER",
     "Marktwert": "500000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "16",
+    "Notendurchschnitt": "2.5"
   },
   {
     "ID": "pl-k00132205",
@@ -6644,8 +6572,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "DEFENDER",
     "Marktwert": "600000",
-    "Punkte": "94",
-    "Notendurchschnitt": "3.39"
+    "Punkte": "90",
+    "Notendurchschnitt": "3.69"
   },
   {
     "ID": "pl-k00132207",
@@ -6656,8 +6584,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "FORWARD",
     "Marktwert": "1400000",
-    "Punkte": "44",
-    "Notendurchschnitt": "3.67"
+    "Punkte": "67",
+    "Notendurchschnitt": "3.63"
   },
   {
     "ID": "pl-k00132274",
@@ -6668,7 +6596,7 @@
     "Verein": "Holstein Kiel",
     "Position": "DEFENDER",
     "Marktwert": "1300000",
-    "Punkte": "44",
+    "Punkte": "58",
     "Notendurchschnitt": "3.79"
   },
   {
@@ -6680,7 +6608,7 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "FORWARD",
     "Marktwert": "3300000",
-    "Punkte": "0",
+    "Punkte": "4",
     "Notendurchschnitt": "5.0"
   },
   {
@@ -6692,8 +6620,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "FORWARD",
     "Marktwert": "6000000",
-    "Punkte": "107",
-    "Notendurchschnitt": "3.04"
+    "Punkte": "109",
+    "Notendurchschnitt": "3.19"
   },
   {
     "ID": "pl-k00133398",
@@ -6704,7 +6632,7 @@
     "Verein": "RB Leipzig",
     "Position": "FORWARD",
     "Marktwert": "5000000",
-    "Punkte": "122",
+    "Punkte": "149",
     "Notendurchschnitt": "3.74"
   },
   {
@@ -6728,8 +6656,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "MIDFIELDER",
     "Marktwert": "2600000",
-    "Punkte": "8",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "42",
+    "Notendurchschnitt": "2.0"
   },
   {
     "ID": "pl-k00133786",
@@ -6740,8 +6668,8 @@
     "Verein": "Borussia Dortmund",
     "Position": "DEFENDER",
     "Marktwert": "1700000",
-    "Punkte": "12",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "57",
+    "Notendurchschnitt": "3.13"
   },
   {
     "ID": "pl-k00134048",
@@ -6788,8 +6716,8 @@
     "Verein": "RB Leipzig",
     "Position": "DEFENDER",
     "Marktwert": "2800000",
-    "Punkte": "66",
-    "Notendurchschnitt": "3.33"
+    "Punkte": "84",
+    "Notendurchschnitt": "3.47"
   },
   {
     "ID": "pl-k00135247",
@@ -6800,8 +6728,8 @@
     "Verein": "FC St. Pauli",
     "Position": "FORWARD",
     "Marktwert": "1500000",
-    "Punkte": "84",
-    "Notendurchschnitt": "3.65"
+    "Punkte": "103",
+    "Notendurchschnitt": "3.67"
   },
   {
     "ID": "pl-k00135346",
@@ -6812,7 +6740,7 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "DEFENDER",
     "Marktwert": "1600000",
-    "Punkte": "16",
+    "Punkte": "18",
     "Notendurchschnitt": "3.0"
   },
   {
@@ -6836,8 +6764,8 @@
     "Verein": "Werder Bremen",
     "Position": "MIDFIELDER",
     "Marktwert": "2000000",
-    "Punkte": "66",
-    "Notendurchschnitt": "3.84"
+    "Punkte": "90",
+    "Notendurchschnitt": "3.79"
   },
   {
     "ID": "pl-k00136157",
@@ -6860,8 +6788,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "76",
-    "Notendurchschnitt": "3.66"
+    "Punkte": "97",
+    "Notendurchschnitt": "3.68"
   },
   {
     "ID": "pl-k00136378",
@@ -6957,7 +6885,7 @@
     "Position": "DEFENDER",
     "Marktwert": "1500000",
     "Punkte": "48",
-    "Notendurchschnitt": "3.5"
+    "Notendurchschnitt": "3.71"
   },
   {
     "ID": "pl-k00136677",
@@ -6968,8 +6896,8 @@
     "Verein": "SC Freiburg",
     "Position": "DEFENDER",
     "Marktwert": "1400000",
-    "Punkte": "22",
-    "Notendurchschnitt": "4.0"
+    "Punkte": "46",
+    "Notendurchschnitt": "3.57"
   },
   {
     "ID": "pl-k00136735",
@@ -7028,8 +6956,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "DEFENDER",
     "Marktwert": "2000000",
-    "Punkte": "51",
-    "Notendurchschnitt": "3.75"
+    "Punkte": "87",
+    "Notendurchschnitt": "3.68"
   },
   {
     "ID": "pl-k00137168",
@@ -7063,7 +6991,7 @@
     "Angezeigter Name": "Noah Pesch",
     "Verein": "Bor. Mönchengladbach",
     "Position": "MIDFIELDER",
-    "Marktwert": "999000000",
+    "Marktwert": "500000",
     "Punkte": "2",
     "Notendurchschnitt": "0.0"
   },
@@ -7076,8 +7004,8 @@
     "Verein": "FC St. Pauli",
     "Position": "FORWARD",
     "Marktwert": "1600000",
-    "Punkte": "60",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "64",
+    "Notendurchschnitt": "3.67"
   },
   {
     "ID": "pl-k00137923",
@@ -7112,8 +7040,8 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "DEFENDER",
     "Marktwert": "1000000",
-    "Punkte": "24",
-    "Notendurchschnitt": "3.0"
+    "Punkte": "39",
+    "Notendurchschnitt": "3.7"
   },
   {
     "ID": "pl-k00137941",
@@ -7196,8 +7124,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "FORWARD",
     "Marktwert": "500000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "6",
+    "Notendurchschnitt": "4.0"
   },
   {
     "ID": "pl-k00138055",
@@ -7388,8 +7316,8 @@
     "Verein": "Bayern München",
     "Position": "MIDFIELDER",
     "Marktwert": "3500000",
-    "Punkte": "76",
-    "Notendurchschnitt": "3.23"
+    "Punkte": "92",
+    "Notendurchschnitt": "3.31"
   },
   {
     "ID": "pl-k00138530",
@@ -7400,8 +7328,8 @@
     "Verein": "1. FC Heidenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "78",
-    "Notendurchschnitt": "3.79"
+    "Punkte": "92",
+    "Notendurchschnitt": "3.72"
   },
   {
     "ID": "pl-k00138657",
@@ -7484,8 +7412,8 @@
     "Verein": "FC Augsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "1200000",
-    "Punkte": "26",
-    "Notendurchschnitt": "3.83"
+    "Punkte": "46",
+    "Notendurchschnitt": "3.75"
   },
   {
     "ID": "pl-k00139275",
@@ -7508,8 +7436,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "FORWARD",
     "Marktwert": "2200000",
-    "Punkte": "205",
-    "Notendurchschnitt": "3.02"
+    "Punkte": "217",
+    "Notendurchschnitt": "3.21"
   },
   {
     "ID": "pl-k00139305",
@@ -7520,7 +7448,7 @@
     "Verein": "RB Leipzig",
     "Position": "FORWARD",
     "Marktwert": "2000000",
-    "Punkte": "98",
+    "Punkte": "104",
     "Notendurchschnitt": "3.42"
   },
   {
@@ -7532,8 +7460,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "DEFENDER",
     "Marktwert": "500000",
-    "Punkte": "0",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "12",
+    "Notendurchschnitt": "3.25"
   },
   {
     "ID": "pl-k00139331",
@@ -7544,8 +7472,8 @@
     "Verein": "VfL Wolfsburg",
     "Position": "MIDFIELDER",
     "Marktwert": "700000",
-    "Punkte": "46",
-    "Notendurchschnitt": "3.86"
+    "Punkte": "60",
+    "Notendurchschnitt": "3.81"
   },
   {
     "ID": "pl-k00139334",
@@ -7568,7 +7496,7 @@
     "Verein": "Borussia Dortmund",
     "Position": "DEFENDER",
     "Marktwert": "800000",
-    "Punkte": "3",
+    "Punkte": "5",
     "Notendurchschnitt": "4.5"
   },
   {
@@ -7724,8 +7652,8 @@
     "Verein": "VfL Bochum",
     "Position": "MIDFIELDER",
     "Marktwert": "500000",
-    "Punkte": "14",
-    "Notendurchschnitt": "5.0"
+    "Punkte": "18",
+    "Notendurchschnitt": "4.75"
   },
   {
     "ID": "pl-k00140731",
@@ -7760,8 +7688,8 @@
     "Verein": "Holstein Kiel",
     "Position": "FORWARD",
     "Marktwert": "1600000",
-    "Punkte": "43",
-    "Notendurchschnitt": "3.68"
+    "Punkte": "103",
+    "Notendurchschnitt": "3.41"
   },
   {
     "ID": "pl-k00141275",
@@ -7797,7 +7725,7 @@
     "Position": "FORWARD",
     "Marktwert": "1600000",
     "Punkte": "19",
-    "Notendurchschnitt": "3.67"
+    "Notendurchschnitt": "4.1"
   },
   {
     "ID": "pl-k00141445",
@@ -7820,8 +7748,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "DEFENDER",
     "Marktwert": "1600000",
-    "Punkte": "18",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "38",
+    "Notendurchschnitt": "3.56"
   },
   {
     "ID": "pl-k00141456",
@@ -8036,8 +7964,8 @@
     "Verein": "VfB Stuttgart",
     "Position": "DEFENDER",
     "Marktwert": "1800000",
-    "Punkte": "2",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "20",
+    "Notendurchschnitt": "2.67"
   },
   {
     "ID": "pl-k00143830",
@@ -8048,8 +7976,8 @@
     "Verein": "Holstein Kiel",
     "Position": "MIDFIELDER",
     "Marktwert": "1500000",
-    "Punkte": "46",
-    "Notendurchschnitt": "4.02"
+    "Punkte": "58",
+    "Notendurchschnitt": "4.0"
   },
   {
     "ID": "pl-k00143858",
@@ -8144,8 +8072,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "DEFENDER",
     "Marktwert": "1500000",
-    "Punkte": "20",
-    "Notendurchschnitt": "3.0"
+    "Punkte": "36",
+    "Notendurchschnitt": "3.3"
   },
   {
     "ID": "pl-k00144321",
@@ -8168,8 +8096,8 @@
     "Verein": "Bayer 04 Leverkusen",
     "Position": "DEFENDER",
     "Marktwert": "1600000",
-    "Punkte": "26",
-    "Notendurchschnitt": "4.17"
+    "Punkte": "32",
+    "Notendurchschnitt": "4.19"
   },
   {
     "ID": "pl-k00145004",
@@ -8204,8 +8132,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "DEFENDER",
     "Marktwert": "1200000",
-    "Punkte": "68",
-    "Notendurchschnitt": "3.56"
+    "Punkte": "89",
+    "Notendurchschnitt": "3.63"
   },
   {
     "ID": "pl-k00145626",
@@ -8324,8 +8252,8 @@
     "Verein": "RB Leipzig",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "50",
-    "Notendurchschnitt": "3.79"
+    "Punkte": "64",
+    "Notendurchschnitt": "3.82"
   },
   {
     "ID": "pl-k00146099",
@@ -8335,8 +8263,8 @@
     "Angezeigter Name": "Tiago Pereira Cardoso",
     "Verein": "Bor. Mönchengladbach",
     "Position": "GOALKEEPER",
-    "Marktwert": "999000000",
-    "Punkte": "18",
+    "Marktwert": "1000000",
+    "Punkte": "33",
     "Notendurchschnitt": "3.0"
   },
   {
@@ -8372,8 +8300,8 @@
     "Verein": "RB Leipzig",
     "Position": "DEFENDER",
     "Marktwert": "1400000",
-    "Punkte": "6",
-    "Notendurchschnitt": "4.0"
+    "Punkte": "16",
+    "Notendurchschnitt": "4.07"
   },
   {
     "ID": "pl-k00146285",
@@ -8408,8 +8336,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "FORWARD",
     "Marktwert": "2000000",
-    "Punkte": "63",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "73",
+    "Notendurchschnitt": "3.45"
   },
   {
     "ID": "pl-k00146308",
@@ -8432,8 +8360,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "MIDFIELDER",
     "Marktwert": "1000000",
-    "Punkte": "36",
-    "Notendurchschnitt": "3.88"
+    "Punkte": "44",
+    "Notendurchschnitt": "3.83"
   },
   {
     "ID": "pl-k00146365",
@@ -8468,7 +8396,7 @@
     "Verein": "Borussia Dortmund",
     "Position": "FORWARD",
     "Marktwert": "1000000",
-    "Punkte": "12",
+    "Punkte": "14",
     "Notendurchschnitt": "4.2"
   },
   {
@@ -8516,7 +8444,7 @@
     "Verein": "TSG Hoffenheim",
     "Position": "DEFENDER",
     "Marktwert": "1500000",
-    "Punkte": "16",
+    "Punkte": "24",
     "Notendurchschnitt": "4.25"
   },
   {
@@ -8576,8 +8504,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "26",
-    "Notendurchschnitt": "4.13"
+    "Punkte": "42",
+    "Notendurchschnitt": "4.11"
   },
   {
     "ID": "pl-k00148644",
@@ -8660,8 +8588,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "FORWARD",
     "Marktwert": "1200000",
-    "Punkte": "53",
-    "Notendurchschnitt": "3.5"
+    "Punkte": "70",
+    "Notendurchschnitt": "3.68"
   },
   {
     "ID": "pl-k00149253",
@@ -8971,7 +8899,7 @@
     "Angezeigter Name": "Hennes Behrens",
     "Verein": "TSG Hoffenheim",
     "Position": "DEFENDER",
-    "Marktwert": "999000000",
+    "Marktwert": "500000",
     "Punkte": "2",
     "Notendurchschnitt": "3.5"
   },
@@ -9019,7 +8947,7 @@
     "Angezeigter Name": "Paul Hennrich",
     "Verein": "TSG Hoffenheim",
     "Position": "MIDFIELDER",
-    "Marktwert": "999000000",
+    "Marktwert": "500000",
     "Punkte": "2",
     "Notendurchschnitt": "0.0"
   },
@@ -9272,8 +9200,8 @@
     "Verein": "1. FC Union Berlin",
     "Position": "FORWARD",
     "Marktwert": "1400000",
-    "Punkte": "34",
-    "Notendurchschnitt": "3.69"
+    "Punkte": "57",
+    "Notendurchschnitt": "3.79"
   },
   {
     "ID": "pl-k00150987",
@@ -9296,8 +9224,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "MIDFIELDER",
     "Marktwert": "2200000",
-    "Punkte": "116",
-    "Notendurchschnitt": "3.46"
+    "Punkte": "144",
+    "Notendurchschnitt": "3.43"
   },
   {
     "ID": "pl-k00151289",
@@ -9343,7 +9271,7 @@
     "Angezeigter Name": "Jarzinho Malanga",
     "Verein": "VfB Stuttgart",
     "Position": "MIDFIELDER",
-    "Marktwert": "999000000",
+    "Marktwert": "500000",
     "Punkte": "2",
     "Notendurchschnitt": "0.0"
   },
@@ -9392,7 +9320,7 @@
     "Verein": "Bor. Mönchengladbach",
     "Position": "FORWARD",
     "Marktwert": "800000",
-    "Punkte": "11",
+    "Punkte": "13",
     "Notendurchschnitt": "0.0"
   },
   {
@@ -9464,8 +9392,8 @@
     "Verein": "FC St. Pauli",
     "Position": "FORWARD",
     "Marktwert": "1700000",
-    "Punkte": "70",
-    "Notendurchschnitt": "3.76"
+    "Punkte": "73",
+    "Notendurchschnitt": "3.89"
   },
   {
     "ID": "pl-k00153415",
@@ -9476,8 +9404,8 @@
     "Verein": "Holstein Kiel",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "18",
-    "Notendurchschnitt": "4.28"
+    "Punkte": "30",
+    "Notendurchschnitt": "4.16"
   },
   {
     "ID": "pl-k00153573",
@@ -9488,8 +9416,8 @@
     "Verein": "Holstein Kiel",
     "Position": "DEFENDER",
     "Marktwert": "1400000",
-    "Punkte": "-4",
-    "Notendurchschnitt": "4.88"
+    "Punkte": "8",
+    "Notendurchschnitt": "4.42"
   },
   {
     "ID": "pl-k00153578",
@@ -9500,8 +9428,8 @@
     "Verein": "TSG Hoffenheim",
     "Position": "FORWARD",
     "Marktwert": "2200000",
-    "Punkte": "20",
-    "Notendurchschnitt": "4.14"
+    "Punkte": "24",
+    "Notendurchschnitt": "4.08"
   },
   {
     "ID": "pl-k00153662",
@@ -9512,8 +9440,8 @@
     "Verein": "1. FSV Mainz 05",
     "Position": "MIDFIELDER",
     "Marktwert": "1800000",
-    "Punkte": "142",
-    "Notendurchschnitt": "3.19"
+    "Punkte": "179",
+    "Notendurchschnitt": "3.17"
   },
   {
     "ID": "pl-k00153779",
@@ -9524,8 +9452,8 @@
     "Verein": "SC Freiburg",
     "Position": "MIDFIELDER",
     "Marktwert": "500000",
-    "Punkte": "10",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "46",
+    "Notendurchschnitt": "2.83"
   },
   {
     "ID": "pl-k00154032",
@@ -9572,8 +9500,8 @@
     "Verein": "Eintracht Frankfurt",
     "Position": "GOALKEEPER",
     "Marktwert": "500000",
-    "Punkte": "45",
-    "Notendurchschnitt": "3.07"
+    "Punkte": "59",
+    "Notendurchschnitt": "3.06"
   },
   {
     "ID": "pl-k00155505",
@@ -9620,8 +9548,8 @@
     "Verein": "RB Leipzig",
     "Position": "FORWARD",
     "Marktwert": "1200000",
-    "Punkte": "6",
-    "Notendurchschnitt": "0.0"
+    "Punkte": "18",
+    "Notendurchschnitt": "3.0"
   },
   {
     "ID": "pl-k00157954",
@@ -9864,6 +9792,18 @@
     "Notendurchschnitt": "0.0"
   },
   {
+    "ID": "pl-k00162249",
+    "Vorname": "Juri",
+    "Nachname": "Behr",
+    "Angezeigter Name (kurz)": "Behr",
+    "Angezeigter Name": "Juri Behr",
+    "Verein": "FC St. Pauli",
+    "Position": "GOALKEEPER",
+    "Marktwert": "999000000",
+    "Punkte": "0",
+    "Notendurchschnitt": "0.0"
+  },
+  {
     "ID": "pl-k00162790",
     "Vorname": "Nils",
     "Nachname": "Ramming",
@@ -9871,6 +9811,18 @@
     "Angezeigter Name": "Nils Ramming",
     "Verein": "Eintracht Frankfurt",
     "Position": "GOALKEEPER",
+    "Marktwert": "999000000",
+    "Punkte": "0",
+    "Notendurchschnitt": "0.0"
+  },
+  {
+    "ID": "pl-k00163142",
+    "Vorname": "Toralf",
+    "Nachname": "Hense",
+    "Angezeigter Name (kurz)": "Hense",
+    "Angezeigter Name": "Toralf Hense",
+    "Verein": "FC St. Pauli",
+    "Position": "FORWARD",
     "Marktwert": "999000000",
     "Punkte": "0",
     "Notendurchschnitt": "0.0"
@@ -9896,7 +9848,7 @@
     "Verein": "Holstein Kiel",
     "Position": "DEFENDER",
     "Marktwert": "1200000",
-    "Punkte": "20",
+    "Punkte": "22",
     "Notendurchschnitt": "4.3"
   },
   {
@@ -9924,6 +9876,18 @@
     "Notendurchschnitt": "0.0"
   },
   {
+    "ID": "pl-k00164883",
+    "Vorname": "Magnus",
+    "Nachname": "Dalpiaz",
+    "Angezeigter Name (kurz)": "Dalpiaz",
+    "Angezeigter Name": "Magnus Dalpiaz",
+    "Verein": "Bayern München",
+    "Position": "DEFENDER",
+    "Marktwert": "999000000",
+    "Punkte": "0",
+    "Notendurchschnitt": "0.0"
+  },
+  {
     "ID": "pl-k00164886",
     "Vorname": "Julien",
     "Nachname": "Yanda",
@@ -9944,7 +9908,7 @@
     "Verein": "Bayern München",
     "Position": "FORWARD",
     "Marktwert": "999000000",
-    "Punkte": "0",
+    "Punkte": "2",
     "Notendurchschnitt": "0.0"
   },
   {
@@ -10148,7 +10112,19 @@
     "Verein": "TSG Hoffenheim",
     "Position": "MIDFIELDER",
     "Marktwert": "1600000",
-    "Punkte": "16",
-    "Notendurchschnitt": "3.0"
+    "Punkte": "42",
+    "Notendurchschnitt": "3.57"
+  },
+  {
+    "ID": "pl-k00103878",
+    "Vorname": "Omar",
+    "Nachname": "Marmoush",
+    "Angezeigter Name (kurz)": "Marmoush",
+    "Angezeigter Name": "Omar Marmoush",
+    "Verein": "Eintracht Frankfurt",
+    "Position": "FORWARD",
+    "Marktwert": "3500000",
+    "Punkte": "236",
+    "Notendurchschnitt": "2.38"
   }
 ]
