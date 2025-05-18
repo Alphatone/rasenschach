@@ -65,6 +65,42 @@ function mergePerformance(firstHalf: Record<string, number>, secondHalf: Record<
         .slice(0, 100); // Top 20 nach Effizienz Rückrunde
 }
 
+const WINTER_KADER_PATH = "./data/squad/winter-kader.json";
+
+function getSquadEfficiencyTable(): void {
+    const winterKader: string[] = JSON.parse(fs.readFileSync(WINTER_KADER_PATH, "utf-8"));
+
+    const firstHalf = aggregatePoints(matchdays, 0, 17);
+    const secondHalf = aggregatePoints(matchdays, 17, 34);
+
+    const rows = [];
+
+    for (const id of winterKader) {
+        const metaEntry = meta[id];
+        if (!metaEntry) continue;
+
+        const cost = parseInt(metaEntry.Marktwert);
+        if (!cost || cost === 0) continue;
+
+        const pointsFirst = firstHalf[id] ?? 0;
+        const pointsSecond = secondHalf[id] ?? 0;
+
+        rows.push({
+            id,
+            name: metaEntry["Angezeigter Name"],
+            club: metaEntry.Verein,
+            position: metaEntry.Position,
+            marketValue: cost,
+            pointsFirstHalf: pointsFirst,
+            pointsSecondHalf: pointsSecond,
+            pointsFirstHalfPerMio: +(pointsFirst / (cost / 1_000_000)).toFixed(2),
+            pointsSecondHalfPerMio: +(pointsSecond / (cost / 1_000_000)).toFixed(2),
+        });
+    }
+
+    console.log("\n📊 Effizienz deines Winter-Kaders:");
+    console.table(rows.sort((a, b) => b.pointsSecondHalf - a.pointsSecondHalf));
+}
 const matchdays = loadAllMatchdays();
 const meta = loadPlayerMeta();
 
@@ -75,3 +111,4 @@ const topEfficient = mergePerformance(firstHalf, secondHalf, meta);
 
 console.log("\n💸 Effizienteste Spieler (Punkte pro Mio Marktwert – Rückrunde):");
 console.table(topEfficient);
+getSquadEfficiencyTable();
