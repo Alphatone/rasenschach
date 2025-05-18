@@ -11,6 +11,7 @@ const SEASON_PREFIX = "rn-k0001202400";
 const MAX_MATCHDAY = 34;
 const LOCAL_MATCHDAY_PATH = './data/matchdays'
 const LOCAL_PLAYERS_PATH = './data/players/players-se-k00012024.csv'
+export type Position = "FORWARD" | "MIDFIELDER" | "DEFENDER" | "GOALKEEPER";
 
 export type PointsBreakDown = {
     grade: number,
@@ -48,7 +49,7 @@ export interface PlayerEntry {
     pointsBreakDown?: PointsBreakDown
     club: string
     cost: string,
-    position: string
+    position: Position
 }
 
 async function fetchCSVPlayerData(): Promise<Record<string, Record<"ID" | "Vorname" | "Nachname" | "Angezeigter Name (kurz)" | "Angezeigter Name" | "Verein" | "Position" | "Marktwert" | "Punkte" | "Notendurchschnitt", string>>> {
@@ -163,7 +164,7 @@ async function loadMatchday(matchdayId: string) {
     return matchdayData
 }
 
-async function mergeAndSaveMatchday(playerMap: Record<string, Record<"ID" | "Vorname" | "Nachname" | "Angezeigter Name (kurz)" | "Angezeigter Name" | "Verein" | "Position" | "Marktwert" | "Punkte" | "Notendurchschnitt", string>>, matchdayId: string, matchdayData: MatchDay): Promise<void> {
+async function mergeAndSaveMatchday(playerMap: Record<string, Record<"ID" | "Vorname" | "Nachname" | "Angezeigter Name (kurz)" | "Angezeigter Name" | "Verein" | "Position" | "Marktwert" | "Punkte" | "Notendurchschnitt", string | Position>>, matchdayId: string, matchdayData: MatchDay): Promise<void> {
 
     const matchdayScoreSheets = matchdayData.matches.flatMap((match: Match) => match.players || []);
 
@@ -186,7 +187,7 @@ async function mergeAndSaveMatchday(playerMap: Record<string, Record<"ID" | "Vor
             pointsBreakDown: playerScoreSheet.pointsBreakDown,
             kickerGrade: playerScoreSheet.pointsBreakDown.grade,
             cost: player['Marktwert'],
-            position: player['Position']
+            position: player['Position'] as unknown as Position
         }
         return res;
     }).filter(p => p!== null);
