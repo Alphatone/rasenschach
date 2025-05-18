@@ -8,7 +8,8 @@
     "fetch:matchdays clean": "rm -r data/combined/* data/matchdays/* data/players/* && ts-node src/matchday-fetcher.ts",
     "fetch:matchdays": "ts-node src/matchday-fetcher.ts",
     "run:analysis": "ts-node src/analysis.ts",
-    "run:brute-analysis": "ts-node src/solve-as-bruteforce.ts"
+    "run:brute-analysis": "ts-node src/solve-as-bruteforce.ts",
+    "run:sim-transfers": "ts-node src/simulateTransfers.ts"
   },
   "author": "Jonas Koneczny",
   "license": "ISC",
