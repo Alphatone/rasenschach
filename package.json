@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fetch:matchdays clean": "rm -r data/combined/* data/matchdays/* data/players/* && ts-node src/matchday-fetcher.ts",
     "fetch:matchdays": "ts-node src/matchday-fetcher.ts",
-    "run:analysis": "ts-node src/analysis.ts"
+    "run:analysis": "ts-node src/analysis.ts",
+    "run:ilp-analysis": "ts-node src/solve-as-ilp.ts"
   },
   "author": "Jonas Koneczny",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "axios": "^1.8.4",
     "csv-parse": "^5.6.0",
     "fs": "^0.0.1-security",
+    "javascript-lp-solver": "^0.4.24",
     "path": "^0.12.7"
   },
   "devDependencies": {

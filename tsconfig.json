@@ -8,7 +8,8 @@
     "strict": true,
     "resolveJsonModule": true,
     "outDir": "dist",
-    "rootDir": "./"
+    "rootDir": "./",
+    "typeRoots": ["./node_modules/@types", "./src/types"]
   },
   "include": ["src/**/*.ts", "src/matchday-fetcher.ts"],
   "exclude": ["node_modules", "dist"]
