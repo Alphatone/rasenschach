@@ -47,7 +47,8 @@ export interface PlayerEntry {
     kickerGrade: number;
     pointsBreakDown?: PointsBreakDown
     club: string
-    cost: string
+    cost: string,
+    position: string
 }
 
 async function fetchCSVPlayerData(): Promise<Record<string, Record<"ID" | "Vorname" | "Nachname" | "Angezeigter Name (kurz)" | "Angezeigter Name" | "Verein" | "Position" | "Marktwert" | "Punkte" | "Notendurchschnitt", string>>> {
@@ -184,7 +185,8 @@ async function mergeAndSaveMatchday(playerMap: Record<string, Record<"ID" | "Vor
             points: playerScoreSheet.points,
             pointsBreakDown: playerScoreSheet.pointsBreakDown,
             kickerGrade: playerScoreSheet.pointsBreakDown.grade,
-            cost: player['Marktwert']
+            cost: player['Marktwert'],
+            position: player['Position']
         }
         return res;
     }).filter(p => p!== null);
