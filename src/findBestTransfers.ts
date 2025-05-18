@@ -112,7 +112,8 @@ function findBestTransfersTop11Based() {
 
     const squadSet = new Set(squad);
     const originalBudget = squad.reduce((sum, id) => sum + parseInt(players[id]?.Marktwert || "0"), 0);
-    const originalTop11Points = getTop11PointsWithBestFormation(squad, hinrundeScores, players);
+    const originalTop11Hinrunde = getTop11PointsWithBestFormation(squad, hinrundeScores, players);
+    const originalTop11Rueckrunde = getTop11PointsWithBestFormation(squad, rueckrundeScores, players);
 
     const options: {
         outId: string;
@@ -177,8 +178,11 @@ function findBestTransfersTop11Based() {
     }
 
     const newSquad = squad.filter(id => !usedOut.has(id)).concat(selected.map(t => t.inId));
-    const newTop11Points = getTop11PointsWithBestFormation(newSquad, rueckrundeScores, players);
-    const diff = newTop11Points - originalTop11Points;
+    const newTop11Rueckrunde = getTop11PointsWithBestFormation(newSquad, rueckrundeScores, players);
+
+    const rueckrundeGain = newTop11Rueckrunde - originalTop11Rueckrunde;
+    const seasonWithoutTransfers = originalTop11Hinrunde + originalTop11Rueckrunde
+    const seasonWithBestTransfers = originalTop11Hinrunde + newTop11Rueckrunde
 
     console.log(`\n✅ Beste ${selected.length} Transfers (Top11-Differenzoptimierung):\n`);
     for (const t of selected) {
@@ -187,9 +191,13 @@ function findBestTransfersTop11Based() {
         console.log(`🔄 Pos: ${t.position}, 📈 Punktdifferenz: +${t.pointGain}, 🪙 Budgetdiff: ${t.budgetDiff}\n`);
     }
 
-    console.log(`📊 Top-11 Punkte Hinrunde: ${originalTop11Points}`);
-    console.log(`📊 Top-11 Punkte Rückrunde (nach Transfers): ${newTop11Points}`);
-    console.log(`📈 Differenz: +${diff}`);
+    console.log("📊 Vergleich der Top-11:");
+    console.log(`- Hinrunde (Top11 Original): ${originalTop11Hinrunde}`);
+    console.log(`- Rückrunde (Top11 ohne Transfers): ${originalTop11Rueckrunde}`);
+    console.log(`- Rückrunde (Top11 mit Transfers): ${newTop11Rueckrunde}`);
+    console.log(`📈 Punktgewinn durch Transfers (Rückrunde vs Rückrunde): +${rueckrundeGain}`);
+    console.log(`- Gesamt ohne Transfers: ${seasonWithoutTransfers}`)
+    console.log(`- Gesamt mit best möglichen Transfers: ${seasonWithBestTransfers}`)
 }
 
 findBestTransfersTop11Based();
