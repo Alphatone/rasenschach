@@ -12,26 +12,6 @@ const MAX_MATCHDAY = 34;
 const LOCAL_MATCHDAY_PATH = './data/matchdays'
 const LOCAL_PLAYERS_PATH = './data/players/players-se-k00012024.csv'
 
-export interface OriginalPlayerEntry {
-    id: string
-    points: number
-    status: string
-    pointsBreakDown: {
-        grade: number | null
-        goals: number | null
-        assists: number | null
-        pointsGrade: number | null
-        pointsGoals: number | null
-        pointsCards: number | null
-        pointsAssists: number | null
-        pointsStarter: number | null
-        pointsMvp: number | null
-        pointsJoker: number | null
-        pointsCleanSheet: number | null
-    },
-    missedInfo: string | null
-}
-
 export type PlayerEntryKey = "ID" |
     "Vorname" |
     "Nachname" |
@@ -48,20 +28,8 @@ export interface PlayerEntry {
     name: string;
     points: number;
     kickerGrade: number;
-    teamId: string;
-    pointsBreakDown: {
-        grade: null,
-        goals: null,
-        assists: null,
-        pointsGrade: null,
-        pointsGoals: null,
-        pointsCards: null,
-        pointsAssists: null,
-        pointsStarter: null,
-        pointsMvp: null,
-        pointsJoker: null,
-        pointsCleanSheet: null
-    };
+    pointsBreakDown?: PointsBreakDown
+    club:string
 }
 
 async function fetchCSVPlayerData(): Promise<Record<string, Record<"ID" | "Vorname" | "Nachname" | "Angezeigter Name (kurz)" | "Angezeigter Name" | "Verein" | "Position" | "Marktwert" | "Punkte" | "Notendurchschnitt", string>>> {
@@ -118,72 +86,107 @@ async function getPlayersData() {
                 columns: true,
                 skip_empty_lines: true,
             }, (err, output) => {
-                if (err) reject(err);
-                else resolve(output);
+                if(err) {
+                    reject(err);
+                } else {
+                    resolve(output);
+                }
             });
         });
 
         const playerMap: Record<string, Record<PlayerEntryKey, string>> = {};
-        for (const record of records) {
+        for(const record of records) {
             const id = record["ID"];
             const name = record["Angezeigter Name"];
-            if (id && name) {
+            if(id && name) {
                 playerMap[id] = record;
             }
         }
 
         return playerMap;
-    } catch (err) {
+    } catch(err) {
         console.info("ℹ️ no local CSV found, load remote");
         return await fetchCSVPlayerData();
     }
 }
 
-async function saveMatchday(matchdayId: string) {
-    const matchdayData = await fetchMatchdayData(matchdayId);
-    const matchDayFilename = 'original-' + matchdayId + '.json'
-    const matchDayOutputPath = path.join(LOCAL_MATCHDAY_PATH, matchDayFilename);
-    fs.mkdirSync(LOCAL_MATCHDAY_PATH, {recursive: true});
-    fs.writeFileSync(matchDayOutputPath, JSON.stringify(matchdayData, null, 2), "utf-8");
-    if(!matchdayData) {
-        console.log("⛔️ No data for " + matchdayId);
-        return;
-    }
-
-    console.log("✅ Saved " + matchDayFilename);
+export type PointsBreakDown = {
+    grade: number,
+    goals: number,
+    assists: number,
+    pointsCleanSheet: number,
+    pointsGrade: number,
+    pointsGoals: number,
+    pointsCards: number,
+    pointsAssists: number,
+    pointsStarter: number,
+    pointsMvp: number,
+    pointsJoker: number
 }
 
-async function mergeAndSaveMatchday(playerMap: Record<string, Record<"ID" | "Vorname" | "Nachname" | "Angezeigter Name (kurz)" | "Angezeigter Name" | "Verein" | "Position" | "Marktwert" | "Punkte" | "Notendurchschnitt", string>>, matchdayId: string, matchdayData: any): Promise<void> {
+export type MatchDayPlayerScore = { id: string, points: number, status: string, pointsBreakDown: PointsBreakDown }
+export type Match = { id: string, homeScore: number, guestScore: number, state: string, players: MatchDayPlayerScore[] }
+export type MatchDay = { id: string, phase: string, matches: Match[] }
 
-    const playerStates = matchdayData.matches.flatMap((match: any) => match.players || []);
+async function loadMatchday(matchdayId: string) {
+    const matchDayFilename = 'original-' + matchdayId + '.json'
+    const matchDayOutputPath = path.join(LOCAL_MATCHDAY_PATH, matchDayFilename);
+    let matchdayData: MatchDay = {id: '', phase: '', matches: []};
 
-    const result: PlayerEntry[] = playerStates.map((entry: any) => {
-        return {
-            playerId: entry.id,
-            name: playerMap[entry.id] || entry.name?.display || "Unknown",
-            points: entry.points,
-            teamId: entry.teamId,
-            pointsBreakDown: entry.pointsBreakDown,
-        };
-    });
+    try {
+        const data = await fsPromises.readFile(matchDayOutputPath, "utf-8");
+        matchdayData = JSON.parse(data)
+    } catch(e) {
+        matchdayData = await fetchMatchdayData(matchdayId);
+        fs.mkdirSync(LOCAL_MATCHDAY_PATH, {recursive: true});
+        fs.writeFileSync(matchDayOutputPath, JSON.stringify(matchdayData, null, 2), "utf-8");
+        if(!matchdayData) {
+            console.log("⛔️ No data for " + matchdayId);
+            return matchdayData;
+        }
+        console.log("✅ Saved " + matchDayOutputPath);
+    }
+
+
+    return matchdayData
+}
+
+async function mergeAndSaveMatchday(playerMap: Record<string, Record<"ID" | "Vorname" | "Nachname" | "Angezeigter Name (kurz)" | "Angezeigter Name" | "Verein" | "Position" | "Marktwert" | "Punkte" | "Notendurchschnitt", string>>, matchdayId: string, matchdayData: MatchDay): Promise<void> {
+
+    const matchdayScoreSheets = matchdayData.matches.flatMap((match: Match) => match.players || []);
+
+    const result: PlayerEntry[] | {} = matchdayScoreSheets.map((playerScoreSheet: MatchDayPlayerScore) => {
+        const player = playerMap[playerScoreSheet.id]
+        if(player === undefined){
+            return {}
+        }
+        const res: PlayerEntry = {
+            playerId: playerScoreSheet.id,
+            name: player['Angezeigter Name'],
+            club: player['Verein'],
+            points: playerScoreSheet.points,
+            pointsBreakDown: playerScoreSheet.pointsBreakDown,
+            kickerGrade: playerScoreSheet.pointsBreakDown.grade
+        }
+        return res;
+    }).filter(p => p.hasOwnProperty('name'));
 
     const fileName = matchdayId + ".json";
     const outputPath = path.join("./data/combined", fileName);
     fs.mkdirSync("./data/combined", {recursive: true});
     fs.writeFileSync(outputPath, JSON.stringify(result, null, 2), "utf-8");
-    console.log("✅ Saved " + fileName);
+    console.log("✅ Saved " + outputPath);
 }
 
 async function runAllMatchdays(): Promise<void> {
     const playerMap = await getPlayersData()
-    console.log(playerMap)
     for(let i = 1; i <= MAX_MATCHDAY; i++) {
         const matchdayId = SEASON_PREFIX + i.toString().padStart(2, "0");
-        const matchDayData = await saveMatchday(matchdayId)
+        const matchDayData: MatchDay = await loadMatchday(matchdayId)
         await mergeAndSaveMatchday(playerMap, matchdayId, matchDayData);
         await new Promise((r) => setTimeout(r, 500));
     }
 }
 
-// runAllMatchdays().catch(console.error);
-console.log( getPlayersData().catch(e => console.error(e)).then(a => console.log(a)))
+runAllMatchdays().catch(console.error);
+//console.log(getPlayersData().catch(e => console.error(e)).then(a => console.log(a)))
